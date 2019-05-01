@@ -82,6 +82,11 @@ func main() {
 
 	s := "dddsxx"
 	fmt.Println(strings.LastIndex(s, "/"))
+
+	fmt.Println(Substr(`1234`, -1))
+
+	fmt.Println(strings.Count("1,2,3,4", ","))
+
 }
 func BytesJoin(pBytes ...[]byte) []byte {
 	len := len(pBytes)
@@ -90,4 +95,11 @@ func BytesJoin(pBytes ...[]byte) []byte {
 		s[index] = pBytes[index]
 	}
 	return bytes.Join(s, []byte(""))
+}
+func Substr(s string, n int) string {
+	rs := []rune(s)
+	if n > 0 {
+		return string(rs[0:n])
+	}
+	return string(rs[-n:len(rs)])
 }
