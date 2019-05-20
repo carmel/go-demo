@@ -1,4 +1,4 @@
-package main
+package test
 
 import (
 	"crypto/ecdsa"
@@ -29,7 +29,6 @@ func TestGenRSAKey(t *testing.T) {
 				Bytes: x509PrivateKey,
 			})
 		fmt.Println(`生成的私钥`, string(prvKey))
-
 	}
 	////////////生成公钥/////////
 	publicKey := privateKey.PublicKey

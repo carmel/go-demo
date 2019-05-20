@@ -1,4 +1,4 @@
-package main
+package test
 
 /**
   二进制转换成十进制

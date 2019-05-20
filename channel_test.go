@@ -4,7 +4,7 @@
 // See page 246.
 
 // Countdown implements the countdown for a rocket launch.
-package main
+package test
 
 // NOTE: the ticker goroutine never terminates if the launch is aborted.
 // This is a "goroutine leak".

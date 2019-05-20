@@ -1,9 +1,10 @@
-package main
+package test
 
 import (
-	"gopkg.in/dutchcoders/goftp.v1"
 	"log"
 	"os"
+
+	"gopkg.in/dutchcoders/goftp.v1"
 )
 
 func main() {

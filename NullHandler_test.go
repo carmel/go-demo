@@ -1,13 +1,14 @@
-package main
+package test
 
 import (
 	"database/sql"
 	"encoding/json"
 	"fmt"
-	"github.com/jmoiron/sqlx"
-	"github.com/lib/pq"
 	"reflect"
 	"time"
+
+	"github.com/jmoiron/sqlx"
+	"github.com/lib/pq"
 )
 
 type Place struct {
