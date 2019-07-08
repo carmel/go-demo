@@ -1,0 +1,1965 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<?mso-application progid="Word.Document" ?>
+<pkg:package xmlns:pkg="http://schemas.microsoft.com/office/2006/xmlPackage">
+    <pkg:part pkg:name="/_rels/.rels" pkg:contentType="application/vnd.openxmlformats-package.relationships+xml" pkg:padding="512">
+        <pkg:xmlData>
+            <Relationships xmlns="http://schemas.openxmlformats.org/package/2006/relationships">
+                <Relationship Id="rId3" Type="http://schemas.openxmlformats.org/officeDocument/2006/relationships/extended-properties" Target="docProps/app.xml" />
+                <Relationship Id="rId2" Type="http://schemas.openxmlformats.org/package/2006/relationships/metadata/core-properties" Target="docProps/core.xml" />
+                <Relationship Id="rId1" Type="http://schemas.openxmlformats.org/officeDocument/2006/relationships/officeDocument" Target="word/document.xml" />
+            </Relationships>
+        </pkg:xmlData>
+    </pkg:part>
+    <pkg:part pkg:name="/word/_rels/document.xml.rels" pkg:contentType="application/vnd.openxmlformats-package.relationships+xml" pkg:padding="256">
+        <pkg:xmlData>
+            <Relationships xmlns="http://schemas.openxmlformats.org/package/2006/relationships">
+                <Relationship Id="rId3" Type="http://schemas.openxmlformats.org/officeDocument/2006/relationships/settings" Target="settings.xml" />
+                <Relationship Id="rId2" Type="http://schemas.microsoft.com/office/2007/relationships/stylesWithEffects" Target="stylesWithEffects.xml" />
+                <Relationship Id="rId1" Type="http://schemas.openxmlformats.org/officeDocument/2006/relationships/styles" Target="styles.xml" />
+                <Relationship Id="rId6" Type="http://schemas.openxmlformats.org/officeDocument/2006/relationships/theme" Target="theme/theme1.xml" />
+                <Relationship Id="rId5" Type="http://schemas.openxmlformats.org/officeDocument/2006/relationships/fontTable" Target="fontTable.xml" />
+                <Relationship Id="rId4" Type="http://schemas.openxmlformats.org/officeDocument/2006/relationships/webSettings" Target="webSettings.xml" />
+            </Relationships>
+        </pkg:xmlData>
+    </pkg:part>
+    <pkg:part pkg:name="/word/document.xml" pkg:contentType="application/vnd.openxmlformats-officedocument.wordprocessingml.document.main+xml">
+        <pkg:xmlData>
+            <w:document mc:Ignorable="w14 wp14" xmlns:wpc="http://schemas.microsoft.com/office/word/2010/wordprocessingCanvas" xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" xmlns:o="urn:schemas-microsoft-com:office:office" xmlns:r="http://schemas.openxmlformats.org/officeDocument/2006/relationships" xmlns:m="http://schemas.openxmlformats.org/officeDocument/2006/math" xmlns:v="urn:schemas-microsoft-com:vml" xmlns:wp14="http://schemas.microsoft.com/office/word/2010/wordprocessingDrawing" xmlns:wp="http://schemas.openxmlformats.org/drawingml/2006/wordprocessingDrawing" xmlns:w10="urn:schemas-microsoft-com:office:word" xmlns:w="http://schemas.openxmlformats.org/wordprocessingml/2006/main" xmlns:w14="http://schemas.microsoft.com/office/word/2010/wordml" xmlns:wpg="http://schemas.microsoft.com/office/word/2010/wordprocessingGroup" xmlns:wpi="http://schemas.microsoft.com/office/word/2010/wordprocessingInk" xmlns:wne="http://schemas.microsoft.com/office/word/2006/wordml" xmlns:wps="http://schemas.microsoft.com/office/word/2010/wordprocessingShape">
+                <w:body>
+                    <w:p w:rsidR="00431133" w:rsidRPr="00EA0DF6" w:rsidRDefault="00EA0DF6" w:rsidP="00EA0DF6">
+                        <w:pPr>
+                            <w:jc w:val="center" />
+                            <w:rPr>
+                                <w:rFonts w:ascii="仿宋" w:eastAsia="仿宋" w:hAnsi="仿宋" />
+                                <w:b />
+                                <w:sz w:val="52" />
+                            </w:rPr>
+                        </w:pPr>
+                        <w:bookmarkStart w:id="0" w:name="_GoBack" />
+                        <w:bookmarkEnd w:id="0" />
+                        <w:r w:rsidRPr="00EA0DF6">
+                            <w:rPr>
+                                <w:rFonts w:ascii="仿宋" w:eastAsia="仿宋" w:hAnsi="仿宋" w:hint="eastAsia" />
+                                <w:b />
+                                <w:sz w:val="52" />
+                            </w:rPr>
+                            <w:t>学徒业务档案</w:t>
+                        </w:r>
+                    </w:p>
+                    <w:tbl>
+                        <w:tblPr>
+                            <w:tblW w:w="9100" w:type="dxa" />
+                            <w:tblInd w:w="93" w:type="dxa" />
+                            <w:tblLook w:val="04A0" w:firstRow="1" w:lastRow="0" w:firstColumn="1" w:lastColumn="0" w:noHBand="0" w:noVBand="1" />
+                        </w:tblPr>
+                        <w:tblGrid>
+                            <w:gridCol w:w="820" />
+                            <w:gridCol w:w="1480" />
+                            <w:gridCol w:w="1980" />
+                            <w:gridCol w:w="1920" />
+                            <w:gridCol w:w="2900" />
+                        </w:tblGrid>
+                        <w:tr w:rsidR="006F5F44" w:rsidRPr="006F5F44" w:rsidTr="006F5F44">
+                            <w:trPr>
+                                <w:trHeight w:val="450" />
+                            </w:trPr>
+                            <w:tc>
+                                <w:tcPr>
+                                    <w:tcW w:w="2300" w:type="dxa" />
+                                    <w:gridSpan w:val="2" />
+                                    <w:tcBorders>
+                                        <w:top w:val="single" w:sz="4" w:space="0" w:color="auto" />
+                                        <w:left w:val="single" w:sz="4" w:space="0" w:color="auto" />
+                                        <w:bottom w:val="single" w:sz="4" w:space="0" w:color="auto" />
+                                        <w:right w:val="single" w:sz="4" w:space="0" w:color="000000" />
+                                    </w:tcBorders>
+                                    <w:shd w:val="clear" w:color="auto" w:fill="auto" />
+                                    <w:vAlign w:val="center" />
+                                    <w:hideMark />
+                                </w:tcPr>
+                                <w:p w:rsidR="006F5F44" w:rsidRPr="006F5F44" w:rsidRDefault="006F5F44" w:rsidP="006F5F44">
+                                    <w:pPr>
+                                        <w:spacing w:after="0" w:line="240" w:lineRule="auto" />
+                                        <w:jc w:val="center" />
+                                        <w:rPr>
+                                            <w:rFonts w:ascii="华文仿宋" w:eastAsia="华文仿宋" w:hAnsi="华文仿宋" w:cs="Calibri" />
+                                            <w:color w:val="000000" />
+                                            <w:sz w:val="28" />
+                                            <w:szCs w:val="24" />
+                                        </w:rPr>
+                                    </w:pPr>
+                                    <w:r w:rsidRPr="006F5F44">
+                                        <w:rPr>
+                                            <w:rFonts w:ascii="华文仿宋" w:eastAsia="华文仿宋" w:hAnsi="华文仿宋" w:cs="Calibri" w:hint="eastAsia" />
+                                            <w:color w:val="000000" />
+                                            <w:sz w:val="28" />
+                                            <w:szCs w:val="24" />
+                                        </w:rPr>
+                                        <w:t>姓名</w:t>
+                                    </w:r>
+                                </w:p>
+                            </w:tc>
+                            <w:tc>
+                                <w:tcPr>
+                                    <w:tcW w:w="1980" w:type="dxa" />
+                                    <w:tcBorders>
+                                        <w:top w:val="single" w:sz="4" w:space="0" w:color="auto" />
+                                        <w:left w:val="nil" />
+                                        <w:bottom w:val="single" w:sz="4" w:space="0" w:color="auto" />
+                                        <w:right w:val="single" w:sz="4" w:space="0" w:color="auto" />
+                                    </w:tcBorders>
+                                    <w:shd w:val="clear" w:color="auto" w:fill="auto" />
+                                    <w:vAlign w:val="center" />
+                                    <w:hideMark />
+                                </w:tcPr>
+                                <w:p w:rsidR="006F5F44" w:rsidRPr="006F5F44" w:rsidRDefault="006F5F44" w:rsidP="006F5F44">
+                                    <w:pPr>
+                                        <w:spacing w:after="0" w:line="240" w:lineRule="auto" />
+                                        <w:jc w:val="center" />
+                                        <w:rPr>
+                                            <w:rFonts w:ascii="宋体" w:eastAsia="宋体" w:hAnsi="宋体" w:cs="Calibri" />
+                                            <w:color w:val="000000" />
+                                            <w:szCs w:val="24" />
+                                        </w:rPr>
+                                    </w:pPr>
+                                    <w:r w:rsidRPr="006F5F44">
+                                        <w:rPr>
+                                            <w:rFonts w:ascii="宋体" w:eastAsia="宋体" w:hAnsi="宋体" w:cs="Calibri" w:hint="eastAsia" />
+                                            <w:color w:val="000000" />
+                                            <w:szCs w:val="24" />
+                                        </w:rPr>
+                                        <w:t>徐 最</w:t>
+                                    </w:r>
+                                </w:p>
+                            </w:tc>
+                            <w:tc>
+                                <w:tcPr>
+                                    <w:tcW w:w="1920" w:type="dxa" />
+                                    <w:tcBorders>
+                                        <w:top w:val="single" w:sz="4" w:space="0" w:color="auto" />
+                                        <w:left w:val="nil" />
+                                        <w:bottom w:val="single" w:sz="4" w:space="0" w:color="auto" />
+                                        <w:right w:val="single" w:sz="4" w:space="0" w:color="auto" />
+                                    </w:tcBorders>
+                                    <w:shd w:val="clear" w:color="auto" w:fill="auto" />
+                                    <w:vAlign w:val="center" />
+                                    <w:hideMark />
+                                </w:tcPr>
+                                <w:p w:rsidR="006F5F44" w:rsidRPr="006F5F44" w:rsidRDefault="006F5F44" w:rsidP="006F5F44">
+                                    <w:pPr>
+                                        <w:spacing w:after="0" w:line="240" w:lineRule="auto" />
+                                        <w:jc w:val="center" />
+                                        <w:rPr>
+                                            <w:rFonts w:ascii="华文仿宋" w:eastAsia="华文仿宋" w:hAnsi="华文仿宋" w:cs="Calibri" />
+                                            <w:color w:val="000000" />
+                                            <w:sz w:val="28" />
+                                            <w:szCs w:val="24" />
+                                        </w:rPr>
+                                    </w:pPr>
+                                    <w:r w:rsidRPr="006F5F44">
+                                        <w:rPr>
+                                            <w:rFonts w:ascii="华文仿宋" w:eastAsia="华文仿宋" w:hAnsi="华文仿宋" w:cs="Calibri" w:hint="eastAsia" />
+                                            <w:color w:val="000000" />
+                                            <w:sz w:val="28" />
+                                            <w:szCs w:val="24" />
+                                        </w:rPr>
+                                        <w:t>班级</w:t>
+                                    </w:r>
+                                </w:p>
+                            </w:tc>
+                            <w:tc>
+                                <w:tcPr>
+                                    <w:tcW w:w="2900" w:type="dxa" />
+                                    <w:tcBorders>
+                                        <w:top w:val="single" w:sz="4" w:space="0" w:color="auto" />
+                                        <w:left w:val="nil" />
+                                        <w:bottom w:val="single" w:sz="4" w:space="0" w:color="auto" />
+                                        <w:right w:val="single" w:sz="4" w:space="0" w:color="000000" />
+                                    </w:tcBorders>
+                                    <w:shd w:val="clear" w:color="auto" w:fill="auto" />
+                                    <w:vAlign w:val="center" />
+                                    <w:hideMark />
+                                </w:tcPr>
+                                <w:p w:rsidR="006F5F44" w:rsidRPr="006F5F44" w:rsidRDefault="006F5F44" w:rsidP="006F5F44">
+                                    <w:pPr>
+                                        <w:spacing w:after="0" w:line="240" w:lineRule="auto" />
+                                        <w:jc w:val="center" />
+                                        <w:rPr>
+                                            <w:rFonts w:ascii="宋体" w:eastAsia="宋体" w:hAnsi="宋体" w:cs="Calibri" />
+                                            <w:color w:val="000000" />
+                                            <w:szCs w:val="24" />
+                                        </w:rPr>
+                                    </w:pPr>
+                                    <w:r w:rsidRPr="006F5F44">
+                                        <w:rPr>
+                                            <w:rFonts w:ascii="宋体" w:eastAsia="宋体" w:hAnsi="宋体" w:cs="Calibri" w:hint="eastAsia" />
+                                            <w:color w:val="000000" />
+                                            <w:szCs w:val="24" />
+                                        </w:rPr>
+                                        <w:t>数控141</w:t>
+                                    </w:r>
+                                </w:p>
+                            </w:tc>
+                        </w:tr>
+                        <w:tr w:rsidR="006F5F44" w:rsidRPr="006F5F44" w:rsidTr="006F5F44">
+                            <w:trPr>
+                                <w:trHeight w:val="480" />
+                            </w:trPr>
+                            <w:tc>
+                                <w:tcPr>
+                                    <w:tcW w:w="2300" w:type="dxa" />
+                                    <w:gridSpan w:val="2" />
+                                    <w:tcBorders>
+                                        <w:top w:val="single" w:sz="4" w:space="0" w:color="auto" />
+                                        <w:left w:val="single" w:sz="4" w:space="0" w:color="auto" />
+                                        <w:bottom w:val="single" w:sz="4" w:space="0" w:color="auto" />
+                                        <w:right w:val="single" w:sz="4" w:space="0" w:color="000000" />
+                                    </w:tcBorders>
+                                    <w:shd w:val="clear" w:color="auto" w:fill="auto" />
+                                    <w:vAlign w:val="center" />
+                                    <w:hideMark />
+                                </w:tcPr>
+                                <w:p w:rsidR="006F5F44" w:rsidRPr="006F5F44" w:rsidRDefault="006F5F44" w:rsidP="006F5F44">
+                                    <w:pPr>
+                                        <w:spacing w:after="0" w:line="240" w:lineRule="auto" />
+                                        <w:jc w:val="center" />
+                                        <w:rPr>
+                                            <w:rFonts w:ascii="华文仿宋" w:eastAsia="华文仿宋" w:hAnsi="华文仿宋" w:cs="Calibri" />
+                                            <w:color w:val="000000" />
+                                            <w:sz w:val="28" />
+                                            <w:szCs w:val="24" />
+                                        </w:rPr>
+                                    </w:pPr>
+                                    <w:r w:rsidRPr="006F5F44">
+                                        <w:rPr>
+                                            <w:rFonts w:ascii="华文仿宋" w:eastAsia="华文仿宋" w:hAnsi="华文仿宋" w:cs="Calibri" w:hint="eastAsia" />
+                                            <w:color w:val="000000" />
+                                            <w:sz w:val="28" />
+                                            <w:szCs w:val="24" />
+                                        </w:rPr>
+                                        <w:t>身份证号</w:t>
+                                    </w:r>
+                                </w:p>
+                            </w:tc>
+                            <w:tc>
+                                <w:tcPr>
+                                    <w:tcW w:w="1980" w:type="dxa" />
+                                    <w:tcBorders>
+                                        <w:top w:val="nil" />
+                                        <w:left w:val="nil" />
+                                        <w:bottom w:val="single" w:sz="4" w:space="0" w:color="auto" />
+                                        <w:right w:val="single" w:sz="4" w:space="0" w:color="auto" />
+                                    </w:tcBorders>
+                                    <w:shd w:val="clear" w:color="auto" w:fill="auto" />
+                                    <w:vAlign w:val="center" />
+                                    <w:hideMark />
+                                </w:tcPr>
+                                <w:p w:rsidR="006F5F44" w:rsidRPr="006F5F44" w:rsidRDefault="006F5F44" w:rsidP="006F5F44">
+                                    <w:pPr>
+                                        <w:spacing w:after="0" w:line="240" w:lineRule="auto" />
+                                        <w:jc w:val="center" />
+                                        <w:rPr>
+                                            <w:rFonts w:ascii="宋体" w:eastAsia="宋体" w:hAnsi="宋体" w:cs="Calibri" />
+                                            <w:color w:val="000000" />
+                                            <w:szCs w:val="24" />
+                                        </w:rPr>
+                                    </w:pPr>
+                                    <w:r w:rsidRPr="006F5F44">
+                                        <w:rPr>
+                                            <w:rFonts w:ascii="宋体" w:eastAsia="宋体" w:hAnsi="宋体" w:cs="Calibri" w:hint="eastAsia" />
+                                            <w:color w:val="000000" />
+                                            <w:szCs w:val="24" />
+                                        </w:rPr>
+                                        <w:t>330722199812092611</w:t>
+                                    </w:r>
+                                </w:p>
+                            </w:tc>
+                            <w:tc>
+                                <w:tcPr>
+                                    <w:tcW w:w="1920" w:type="dxa" />
+                                    <w:tcBorders>
+                                        <w:top w:val="nil" />
+                                        <w:left w:val="nil" />
+                                        <w:bottom w:val="single" w:sz="4" w:space="0" w:color="auto" />
+                                        <w:right w:val="single" w:sz="4" w:space="0" w:color="auto" />
+                                    </w:tcBorders>
+                                    <w:shd w:val="clear" w:color="auto" w:fill="auto" />
+                                    <w:vAlign w:val="center" />
+                                    <w:hideMark />
+                                </w:tcPr>
+                                <w:p w:rsidR="006F5F44" w:rsidRPr="006F5F44" w:rsidRDefault="006F5F44" w:rsidP="006F5F44">
+                                    <w:pPr>
+                                        <w:spacing w:after="0" w:line="240" w:lineRule="auto" />
+                                        <w:jc w:val="center" />
+                                        <w:rPr>
+                                            <w:rFonts w:ascii="华文仿宋" w:eastAsia="华文仿宋" w:hAnsi="华文仿宋" w:cs="Calibri" />
+                                            <w:color w:val="000000" />
+                                            <w:sz w:val="28" />
+                                            <w:szCs w:val="24" />
+                                        </w:rPr>
+                                    </w:pPr>
+                                    <w:r w:rsidRPr="006F5F44">
+                                        <w:rPr>
+                                            <w:rFonts w:ascii="华文仿宋" w:eastAsia="华文仿宋" w:hAnsi="华文仿宋" w:cs="Calibri" w:hint="eastAsia" />
+                                            <w:color w:val="000000" />
+                                            <w:sz w:val="28" />
+                                            <w:szCs w:val="24" />
+                                        </w:rPr>
+                                        <w:t>手机号码</w:t>
+                                    </w:r>
+                                </w:p>
+                            </w:tc>
+                            <w:tc>
+                                <w:tcPr>
+                                    <w:tcW w:w="2900" w:type="dxa" />
+                                    <w:tcBorders>
+                                        <w:top w:val="single" w:sz="4" w:space="0" w:color="auto" />
+                                        <w:left w:val="nil" />
+                                        <w:bottom w:val="single" w:sz="4" w:space="0" w:color="auto" />
+                                        <w:right w:val="single" w:sz="4" w:space="0" w:color="000000" />
+                                    </w:tcBorders>
+                                    <w:shd w:val="clear" w:color="auto" w:fill="auto" />
+                                    <w:vAlign w:val="center" />
+                                    <w:hideMark />
+                                </w:tcPr>
+                                <w:p w:rsidR="006F5F44" w:rsidRPr="006F5F44" w:rsidRDefault="006F5F44" w:rsidP="006F5F44">
+                                    <w:pPr>
+                                        <w:spacing w:after="0" w:line="240" w:lineRule="auto" />
+                                        <w:jc w:val="center" />
+                                        <w:rPr>
+                                            <w:rFonts w:ascii="宋体" w:eastAsia="宋体" w:hAnsi="宋体" w:cs="Calibri" />
+                                            <w:color w:val="000000" />
+                                            <w:szCs w:val="24" />
+                                        </w:rPr>
+                                    </w:pPr>
+                                    <w:r w:rsidRPr="006F5F44">
+                                        <w:rPr>
+                                            <w:rFonts w:ascii="宋体" w:eastAsia="宋体" w:hAnsi="宋体" w:cs="Calibri" w:hint="eastAsia" />
+                                            <w:color w:val="000000" />
+                                            <w:szCs w:val="24" />
+                                        </w:rPr>
+                                        <w:t>13967936015</w:t>
+                                    </w:r>
+                                </w:p>
+                            </w:tc>
+                        </w:tr>
+                        <w:tr w:rsidR="006F5F44" w:rsidRPr="006F5F44" w:rsidTr="006F5F44">
+                            <w:trPr>
+                                <w:trHeight w:val="480" />
+                            </w:trPr>
+                            <w:tc>
+                                <w:tcPr>
+                                    <w:tcW w:w="820" w:type="dxa" />
+                                    <w:vMerge w:val="restart" />
+                                    <w:tcBorders>
+                                        <w:top w:val="nil" />
+                                        <w:left w:val="single" w:sz="4" w:space="0" w:color="auto" />
+                                        <w:bottom w:val="single" w:sz="4" w:space="0" w:color="000000" />
+                                        <w:right w:val="single" w:sz="4" w:space="0" w:color="auto" />
+                                    </w:tcBorders>
+                                    <w:shd w:val="clear" w:color="auto" w:fill="auto" />
+                                    <w:textDirection w:val="tbLrV" />
+                                    <w:vAlign w:val="center" />
+                                    <w:hideMark />
+                                </w:tcPr>
+                                <w:p w:rsidR="006F5F44" w:rsidRPr="006F5F44" w:rsidRDefault="006F5F44" w:rsidP="006F5F44">
+                                    <w:pPr>
+                                        <w:spacing w:after="0" w:line="240" w:lineRule="auto" />
+                                        <w:jc w:val="center" />
+                                        <w:rPr>
+                                            <w:rFonts w:ascii="华文仿宋" w:eastAsia="华文仿宋" w:hAnsi="华文仿宋" w:cs="Calibri" />
+                                            <w:color w:val="000000" />
+                                            <w:sz w:val="28" />
+                                            <w:szCs w:val="24" />
+                                        </w:rPr>
+                                    </w:pPr>
+                                    <w:r w:rsidRPr="006F5F44">
+                                        <w:rPr>
+                                            <w:rFonts w:ascii="华文仿宋" w:eastAsia="华文仿宋" w:hAnsi="华文仿宋" w:cs="Calibri" w:hint="eastAsia" />
+                                            <w:color w:val="000000" />
+                                            <w:sz w:val="28" />
+                                            <w:szCs w:val="24" />
+                                        </w:rPr>
+                                        <w:t>学业成绩</w:t>
+                                    </w:r>
+                                </w:p>
+                            </w:tc>
+                            <w:tc>
+                                <w:tcPr>
+                                    <w:tcW w:w="5380" w:type="dxa" />
+                                    <w:gridSpan w:val="3" />
+                                    <w:tcBorders>
+                                        <w:top w:val="single" w:sz="4" w:space="0" w:color="auto" />
+                                        <w:left w:val="nil" />
+                                        <w:bottom w:val="single" w:sz="4" w:space="0" w:color="auto" />
+                                        <w:right w:val="single" w:sz="4" w:space="0" w:color="auto" />
+                                    </w:tcBorders>
+                                    <w:shd w:val="clear" w:color="auto" w:fill="auto" />
+                                    <w:vAlign w:val="center" />
+                                    <w:hideMark />
+                                </w:tcPr>
+                                <w:p w:rsidR="006F5F44" w:rsidRPr="006F5F44" w:rsidRDefault="006F5F44" w:rsidP="006F5F44">
+                                    <w:pPr>
+                                        <w:spacing w:after="0" w:line="240" w:lineRule="auto" />
+                                        <w:jc w:val="center" />
+                                        <w:rPr>
+                                            <w:rFonts w:ascii="华文仿宋" w:eastAsia="华文仿宋" w:hAnsi="华文仿宋" w:cs="Calibri" />
+                                            <w:color w:val="000000" />
+                                            <w:sz w:val="28" />
+                                            <w:szCs w:val="24" />
+                                        </w:rPr>
+                                    </w:pPr>
+                                    <w:r w:rsidRPr="006F5F44">
+                                        <w:rPr>
+                                            <w:rFonts w:ascii="华文仿宋" w:eastAsia="华文仿宋" w:hAnsi="华文仿宋" w:cs="Calibri" w:hint="eastAsia" />
+                                            <w:color w:val="000000" />
+                                            <w:sz w:val="28" />
+                                            <w:szCs w:val="24" />
+                                        </w:rPr>
+                                        <w:t>课程</w:t>
+                                    </w:r>
+                                </w:p>
+                            </w:tc>
+                            <w:tc>
+                                <w:tcPr>
+                                    <w:tcW w:w="2900" w:type="dxa" />
+                                    <w:tcBorders>
+                                        <w:top w:val="single" w:sz="4" w:space="0" w:color="auto" />
+                                        <w:left w:val="nil" />
+                                        <w:bottom w:val="single" w:sz="4" w:space="0" w:color="auto" />
+                                        <w:right w:val="single" w:sz="4" w:space="0" w:color="auto" />
+                                    </w:tcBorders>
+                                    <w:shd w:val="clear" w:color="auto" w:fill="auto" />
+                                    <w:vAlign w:val="center" />
+                                    <w:hideMark />
+                                </w:tcPr>
+                                <w:p w:rsidR="006F5F44" w:rsidRPr="006F5F44" w:rsidRDefault="006F5F44" w:rsidP="006F5F44">
+                                    <w:pPr>
+                                        <w:spacing w:after="0" w:line="240" w:lineRule="auto" />
+                                        <w:jc w:val="center" />
+                                        <w:rPr>
+                                            <w:rFonts w:ascii="华文仿宋" w:eastAsia="华文仿宋" w:hAnsi="华文仿宋" w:cs="Calibri" />
+                                            <w:color w:val="000000" />
+                                            <w:sz w:val="28" />
+                                            <w:szCs w:val="24" />
+                                        </w:rPr>
+                                    </w:pPr>
+                                    <w:r w:rsidRPr="006F5F44">
+                                        <w:rPr>
+                                            <w:rFonts w:ascii="华文仿宋" w:eastAsia="华文仿宋" w:hAnsi="华文仿宋" w:cs="Calibri" w:hint="eastAsia" />
+                                            <w:color w:val="000000" />
+                                            <w:sz w:val="28" />
+                                            <w:szCs w:val="24" />
+                                        </w:rPr>
+                                        <w:t>分数</w:t>
+                                    </w:r>
+                                </w:p>
+                            </w:tc>
+                        </w:tr>
+                        
+                        
+                        <w:tr w:rsidR="006F5F44" w:rsidRPr="006F5F44" w:rsidTr="006F5F44">
+                            <w:trPr>
+                                <w:trHeight w:val="562" />
+                            </w:trPr>
+                            <w:tc>
+                                <w:tcPr>
+                                    <w:tcW w:w="820" w:type="dxa" />
+                                    <w:vMerge />
+                                    <w:tcBorders>
+                                        <w:top w:val="nil" />
+                                        <w:left w:val="single" w:sz="4" w:space="0" w:color="auto" />
+                                        <w:bottom w:val="single" w:sz="4" w:space="0" w:color="000000" />
+                                        <w:right w:val="single" w:sz="4" w:space="0" w:color="auto" />
+                                    </w:tcBorders>
+                                    <w:vAlign w:val="center" />
+                                    <w:hideMark />
+                                </w:tcPr>
+                                <w:p w:rsidR="006F5F44" w:rsidRPr="006F5F44" w:rsidRDefault="006F5F44" w:rsidP="006F5F44">
+                                    <w:pPr>
+                                        <w:spacing w:after="0" w:line="240" w:lineRule="auto" />
+                                        <w:rPr>
+                                            <w:rFonts w:ascii="华文仿宋" w:eastAsia="华文仿宋" w:hAnsi="华文仿宋" w:cs="Calibri" />
+                                            <w:color w:val="000000" />
+                                            <w:szCs w:val="24" />
+                                        </w:rPr>
+                                    </w:pPr>
+                                </w:p>
+                            </w:tc>
+                            <w:tc>
+                                <w:tcPr>
+                                    <w:tcW w:w="5380" w:type="dxa" />
+                                    <w:gridSpan w:val="3" />
+                                    <w:tcBorders>
+                                        <w:top w:val="single" w:sz="4" w:space="0" w:color="auto" />
+                                        <w:left w:val="nil" />
+                                        <w:bottom w:val="single" w:sz="4" w:space="0" w:color="auto" />
+                                        <w:right w:val="single" w:sz="4" w:space="0" w:color="000000" />
+                                    </w:tcBorders>
+                                    <w:shd w:val="clear" w:color="auto" w:fill="auto" />
+                                    <w:vAlign w:val="center" />
+                                    <w:hideMark />
+                                </w:tcPr>
+                                <w:p w:rsidR="006F5F44" w:rsidRPr="006F5F44" w:rsidRDefault="006F5F44" w:rsidP="006F5F44">
+                                    <w:pPr>
+                                        <w:spacing w:after="0" w:line="240" w:lineRule="auto" />
+                                        <w:rPr>
+                                            <w:rFonts w:ascii="宋体" w:eastAsia="宋体" w:hAnsi="宋体" w:cs="Calibri" />
+                                            <w:color w:val="000000" />
+                                            <w:szCs w:val="24" />
+                                        </w:rPr>
+                                    </w:pPr>
+                                    <w:r w:rsidRPr="006F5F44">
+                                        <w:rPr>
+                                            <w:rFonts w:ascii="宋体" w:eastAsia="宋体" w:hAnsi="宋体" w:cs="Calibri" w:hint="eastAsia" />
+                                            <w:color w:val="000000" />
+                                            <w:szCs w:val="24" />
+                                        </w:rPr>
+                                        <w:t>必备外的技能证书学分</w:t>
+                                    </w:r>
+                                </w:p>
+                            </w:tc>
+                            <w:tc>
+                                <w:tcPr>
+                                    <w:tcW w:w="2900" w:type="dxa" />
+                                    <w:tcBorders>
+                                        <w:top w:val="single" w:sz="4" w:space="0" w:color="auto" />
+                                        <w:left w:val="nil" />
+                                        <w:bottom w:val="single" w:sz="4" w:space="0" w:color="auto" />
+                                        <w:right w:val="single" w:sz="4" w:space="0" w:color="000000" />
+                                    </w:tcBorders>
+                                    <w:shd w:val="clear" w:color="auto" w:fill="auto" />
+                                    <w:vAlign w:val="center" />
+                                    <w:hideMark />
+                                </w:tcPr>
+                                <w:p w:rsidR="006F5F44" w:rsidRPr="006F5F44" w:rsidRDefault="006F5F44" w:rsidP="006F5F44">
+                                    <w:pPr>
+                                        <w:spacing w:after="0" w:line="240" w:lineRule="auto" />
+                                        <w:jc w:val="center" />
+                                        <w:rPr>
+                                            <w:rFonts w:ascii="宋体" w:eastAsia="宋体" w:hAnsi="宋体" w:cs="Calibri" />
+                                            <w:color w:val="000000" />
+                                            <w:szCs w:val="24" />
+                                        </w:rPr>
+                                    </w:pPr>
+                                    <w:r w:rsidRPr="006F5F44">
+                                        <w:rPr>
+                                            <w:rFonts w:ascii="宋体" w:eastAsia="宋体" w:hAnsi="宋体" w:cs="Calibri" w:hint="eastAsia" />
+                                            <w:color w:val="000000" />
+                                            <w:szCs w:val="24" />
+                                        </w:rPr>
+                                        <w:t>0</w:t>
+                                    </w:r>
+                                </w:p>
+                            </w:tc>
+                        </w:tr>
+                        
+                        <w:tr w:rsidR="006F5F44" w:rsidRPr="006F5F44" w:rsidTr="006F5F44">
+                            <w:trPr>
+                                <w:trHeight w:val="562" />
+                            </w:trPr>
+                            <w:tc>
+                                <w:tcPr>
+                                    <w:tcW w:w="820" w:type="dxa" />
+                                    <w:vMerge />
+                                    <w:tcBorders>
+                                        <w:top w:val="nil" />
+                                        <w:left w:val="single" w:sz="4" w:space="0" w:color="auto" />
+                                        <w:bottom w:val="single" w:sz="4" w:space="0" w:color="000000" />
+                                        <w:right w:val="single" w:sz="4" w:space="0" w:color="auto" />
+                                    </w:tcBorders>
+                                    <w:vAlign w:val="center" />
+                                    <w:hideMark />
+                                </w:tcPr>
+                                <w:p w:rsidR="006F5F44" w:rsidRPr="006F5F44" w:rsidRDefault="006F5F44" w:rsidP="006F5F44">
+                                    <w:pPr>
+                                        <w:spacing w:after="0" w:line="240" w:lineRule="auto" />
+                                        <w:rPr>
+                                            <w:rFonts w:ascii="华文仿宋" w:eastAsia="华文仿宋" w:hAnsi="华文仿宋" w:cs="Calibri" />
+                                            <w:color w:val="000000" />
+                                            <w:szCs w:val="24" />
+                                        </w:rPr>
+                                    </w:pPr>
+                                </w:p>
+                            </w:tc>
+                            <w:tc>
+                                <w:tcPr>
+                                    <w:tcW w:w="5380" w:type="dxa" />
+                                    <w:gridSpan w:val="3" />
+                                    <w:tcBorders>
+                                        <w:top w:val="single" w:sz="4" w:space="0" w:color="auto" />
+                                        <w:left w:val="nil" />
+                                        <w:bottom w:val="single" w:sz="4" w:space="0" w:color="auto" />
+                                        <w:right w:val="single" w:sz="4" w:space="0" w:color="000000" />
+                                    </w:tcBorders>
+                                    <w:shd w:val="clear" w:color="auto" w:fill="auto" />
+                                    <w:vAlign w:val="center" />
+                                    <w:hideMark />
+                                </w:tcPr>
+                                <w:p w:rsidR="006F5F44" w:rsidRPr="006F5F44" w:rsidRDefault="006F5F44" w:rsidP="006F5F44">
+                                    <w:pPr>
+                                        <w:spacing w:after="0" w:line="240" w:lineRule="auto" />
+                                        <w:rPr>
+                                            <w:rFonts w:ascii="宋体" w:eastAsia="宋体" w:hAnsi="宋体" w:cs="Calibri" />
+                                            <w:color w:val="000000" />
+                                            <w:szCs w:val="24" />
+                                        </w:rPr>
+                                    </w:pPr>
+                                    <w:r w:rsidRPr="006F5F44">
+                                        <w:rPr>
+                                            <w:rFonts w:ascii="宋体" w:eastAsia="宋体" w:hAnsi="宋体" w:cs="Calibri" w:hint="eastAsia" />
+                                            <w:color w:val="000000" />
+                                            <w:szCs w:val="24" />
+                                        </w:rPr>
+                                        <w:t>各类比赛获奖学分</w:t>
+                                    </w:r>
+                                </w:p>
+                            </w:tc>
+                            <w:tc>
+                                <w:tcPr>
+                                    <w:tcW w:w="2900" w:type="dxa" />
+                                    <w:tcBorders>
+                                        <w:top w:val="single" w:sz="4" w:space="0" w:color="auto" />
+                                        <w:left w:val="nil" />
+                                        <w:bottom w:val="single" w:sz="4" w:space="0" w:color="auto" />
+                                        <w:right w:val="single" w:sz="4" w:space="0" w:color="000000" />
+                                    </w:tcBorders>
+                                    <w:shd w:val="clear" w:color="auto" w:fill="auto" />
+                                    <w:vAlign w:val="center" />
+                                    <w:hideMark />
+                                </w:tcPr>
+                                <w:p w:rsidR="006F5F44" w:rsidRPr="006F5F44" w:rsidRDefault="006F5F44" w:rsidP="006F5F44">
+                                    <w:pPr>
+                                        <w:spacing w:after="0" w:line="240" w:lineRule="auto" />
+                                        <w:jc w:val="center" />
+                                        <w:rPr>
+                                            <w:rFonts w:ascii="宋体" w:eastAsia="宋体" w:hAnsi="宋体" w:cs="Calibri" />
+                                            <w:color w:val="000000" />
+                                            <w:szCs w:val="24" />
+                                        </w:rPr>
+                                    </w:pPr>
+                                    <w:r w:rsidRPr="006F5F44">
+                                        <w:rPr>
+                                            <w:rFonts w:ascii="宋体" w:eastAsia="宋体" w:hAnsi="宋体" w:cs="Calibri" w:hint="eastAsia" />
+                                            <w:color w:val="000000" />
+                                            <w:szCs w:val="24" />
+                                        </w:rPr>
+                                        <w:t>0</w:t>
+                                    </w:r>
+                                </w:p>
+                            </w:tc>
+                        </w:tr>
+                        
+                        <w:tr w:rsidR="006F5F44" w:rsidRPr="006F5F44" w:rsidTr="006F5F44">
+                            <w:trPr>
+                                <w:trHeight w:val="562" />
+                            </w:trPr>
+                            <w:tc>
+                                <w:tcPr>
+                                    <w:tcW w:w="820" w:type="dxa" />
+                                    <w:vMerge />
+                                    <w:tcBorders>
+                                        <w:top w:val="nil" />
+                                        <w:left w:val="single" w:sz="4" w:space="0" w:color="auto" />
+                                        <w:bottom w:val="single" w:sz="4" w:space="0" w:color="000000" />
+                                        <w:right w:val="single" w:sz="4" w:space="0" w:color="auto" />
+                                    </w:tcBorders>
+                                    <w:vAlign w:val="center" />
+                                    <w:hideMark />
+                                </w:tcPr>
+                                <w:p w:rsidR="006F5F44" w:rsidRPr="006F5F44" w:rsidRDefault="006F5F44" w:rsidP="006F5F44">
+                                    <w:pPr>
+                                        <w:spacing w:after="0" w:line="240" w:lineRule="auto" />
+                                        <w:rPr>
+                                            <w:rFonts w:ascii="华文仿宋" w:eastAsia="华文仿宋" w:hAnsi="华文仿宋" w:cs="Calibri" />
+                                            <w:color w:val="000000" />
+                                            <w:szCs w:val="24" />
+                                        </w:rPr>
+                                    </w:pPr>
+                                </w:p>
+                            </w:tc>
+                            <w:tc>
+                                <w:tcPr>
+                                    <w:tcW w:w="5380" w:type="dxa" />
+                                    <w:gridSpan w:val="3" />
+                                    <w:tcBorders>
+                                        <w:top w:val="single" w:sz="4" w:space="0" w:color="auto" />
+                                        <w:left w:val="nil" />
+                                        <w:bottom w:val="single" w:sz="4" w:space="0" w:color="auto" />
+                                        <w:right w:val="single" w:sz="4" w:space="0" w:color="000000" />
+                                    </w:tcBorders>
+                                    <w:shd w:val="clear" w:color="auto" w:fill="auto" />
+                                    <w:vAlign w:val="center" />
+                                    <w:hideMark />
+                                </w:tcPr>
+                                <w:p w:rsidR="006F5F44" w:rsidRPr="006F5F44" w:rsidRDefault="006F5F44" w:rsidP="006F5F44">
+                                    <w:pPr>
+                                        <w:spacing w:after="0" w:line="240" w:lineRule="auto" />
+                                        <w:rPr>
+                                            <w:rFonts w:ascii="宋体" w:eastAsia="宋体" w:hAnsi="宋体" w:cs="Calibri" />
+                                            <w:color w:val="000000" />
+                                            <w:szCs w:val="24" />
+                                        </w:rPr>
+                                    </w:pPr>
+                                    <w:r w:rsidRPr="006F5F44">
+                                        <w:rPr>
+                                            <w:rFonts w:ascii="宋体" w:eastAsia="宋体" w:hAnsi="宋体" w:cs="Calibri" w:hint="eastAsia" />
+                                            <w:color w:val="000000" />
+                                            <w:szCs w:val="24" />
+                                        </w:rPr>
+                                        <w:t>音乐</w:t>
+                                    </w:r>
+                                </w:p>
+                            </w:tc>
+                            <w:tc>
+                                <w:tcPr>
+                                    <w:tcW w:w="2900" w:type="dxa" />
+                                    <w:tcBorders>
+                                        <w:top w:val="single" w:sz="4" w:space="0" w:color="auto" />
+                                        <w:left w:val="nil" />
+                                        <w:bottom w:val="single" w:sz="4" w:space="0" w:color="auto" />
+                                        <w:right w:val="single" w:sz="4" w:space="0" w:color="000000" />
+                                    </w:tcBorders>
+                                    <w:shd w:val="clear" w:color="auto" w:fill="auto" />
+                                    <w:vAlign w:val="center" />
+                                    <w:hideMark />
+                                </w:tcPr>
+                                <w:p w:rsidR="006F5F44" w:rsidRPr="006F5F44" w:rsidRDefault="006F5F44" w:rsidP="006F5F44">
+                                    <w:pPr>
+                                        <w:spacing w:after="0" w:line="240" w:lineRule="auto" />
+                                        <w:jc w:val="center" />
+                                        <w:rPr>
+                                            <w:rFonts w:ascii="宋体" w:eastAsia="宋体" w:hAnsi="宋体" w:cs="Calibri" />
+                                            <w:color w:val="000000" />
+                                            <w:szCs w:val="24" />
+                                        </w:rPr>
+                                    </w:pPr>
+                                    <w:r w:rsidRPr="006F5F44">
+                                        <w:rPr>
+                                            <w:rFonts w:ascii="宋体" w:eastAsia="宋体" w:hAnsi="宋体" w:cs="Calibri" w:hint="eastAsia" />
+                                            <w:color w:val="000000" />
+                                            <w:szCs w:val="24" />
+                                        </w:rPr>
+                                        <w:t>5</w:t>
+                                    </w:r>
+                                </w:p>
+                            </w:tc>
+                        </w:tr>
+                        
+                        <w:tr w:rsidR="006F5F44" w:rsidRPr="006F5F44" w:rsidTr="006F5F44">
+                            <w:trPr>
+                                <w:trHeight w:val="562" />
+                            </w:trPr>
+                            <w:tc>
+                                <w:tcPr>
+                                    <w:tcW w:w="820" w:type="dxa" />
+                                    <w:vMerge />
+                                    <w:tcBorders>
+                                        <w:top w:val="nil" />
+                                        <w:left w:val="single" w:sz="4" w:space="0" w:color="auto" />
+                                        <w:bottom w:val="single" w:sz="4" w:space="0" w:color="000000" />
+                                        <w:right w:val="single" w:sz="4" w:space="0" w:color="auto" />
+                                    </w:tcBorders>
+                                    <w:vAlign w:val="center" />
+                                    <w:hideMark />
+                                </w:tcPr>
+                                <w:p w:rsidR="006F5F44" w:rsidRPr="006F5F44" w:rsidRDefault="006F5F44" w:rsidP="006F5F44">
+                                    <w:pPr>
+                                        <w:spacing w:after="0" w:line="240" w:lineRule="auto" />
+                                        <w:rPr>
+                                            <w:rFonts w:ascii="华文仿宋" w:eastAsia="华文仿宋" w:hAnsi="华文仿宋" w:cs="Calibri" />
+                                            <w:color w:val="000000" />
+                                            <w:szCs w:val="24" />
+                                        </w:rPr>
+                                    </w:pPr>
+                                </w:p>
+                            </w:tc>
+                            <w:tc>
+                                <w:tcPr>
+                                    <w:tcW w:w="5380" w:type="dxa" />
+                                    <w:gridSpan w:val="3" />
+                                    <w:tcBorders>
+                                        <w:top w:val="single" w:sz="4" w:space="0" w:color="auto" />
+                                        <w:left w:val="nil" />
+                                        <w:bottom w:val="single" w:sz="4" w:space="0" w:color="auto" />
+                                        <w:right w:val="single" w:sz="4" w:space="0" w:color="000000" />
+                                    </w:tcBorders>
+                                    <w:shd w:val="clear" w:color="auto" w:fill="auto" />
+                                    <w:vAlign w:val="center" />
+                                    <w:hideMark />
+                                </w:tcPr>
+                                <w:p w:rsidR="006F5F44" w:rsidRPr="006F5F44" w:rsidRDefault="006F5F44" w:rsidP="006F5F44">
+                                    <w:pPr>
+                                        <w:spacing w:after="0" w:line="240" w:lineRule="auto" />
+                                        <w:rPr>
+                                            <w:rFonts w:ascii="宋体" w:eastAsia="宋体" w:hAnsi="宋体" w:cs="Calibri" />
+                                            <w:color w:val="000000" />
+                                            <w:szCs w:val="24" />
+                                        </w:rPr>
+                                    </w:pPr>
+                                    <w:r w:rsidRPr="006F5F44">
+                                        <w:rPr>
+                                            <w:rFonts w:ascii="宋体" w:eastAsia="宋体" w:hAnsi="宋体" w:cs="Calibri" w:hint="eastAsia" />
+                                            <w:color w:val="000000" />
+                                            <w:szCs w:val="24" />
+                                        </w:rPr>
+                                        <w:t>特色社会主义</w:t>
+                                    </w:r>
+                                </w:p>
+                            </w:tc>
+                            <w:tc>
+                                <w:tcPr>
+                                    <w:tcW w:w="2900" w:type="dxa" />
+                                    <w:tcBorders>
+                                        <w:top w:val="single" w:sz="4" w:space="0" w:color="auto" />
+                                        <w:left w:val="nil" />
+                                        <w:bottom w:val="single" w:sz="4" w:space="0" w:color="auto" />
+                                        <w:right w:val="single" w:sz="4" w:space="0" w:color="000000" />
+                                    </w:tcBorders>
+                                    <w:shd w:val="clear" w:color="auto" w:fill="auto" />
+                                    <w:vAlign w:val="center" />
+                                    <w:hideMark />
+                                </w:tcPr>
+                                <w:p w:rsidR="006F5F44" w:rsidRPr="006F5F44" w:rsidRDefault="006F5F44" w:rsidP="006F5F44">
+                                    <w:pPr>
+                                        <w:spacing w:after="0" w:line="240" w:lineRule="auto" />
+                                        <w:jc w:val="center" />
+                                        <w:rPr>
+                                            <w:rFonts w:ascii="宋体" w:eastAsia="宋体" w:hAnsi="宋体" w:cs="Calibri" />
+                                            <w:color w:val="000000" />
+                                            <w:szCs w:val="24" />
+                                        </w:rPr>
+                                    </w:pPr>
+                                    <w:r w:rsidRPr="006F5F44">
+                                        <w:rPr>
+                                            <w:rFonts w:ascii="宋体" w:eastAsia="宋体" w:hAnsi="宋体" w:cs="Calibri" w:hint="eastAsia" />
+                                            <w:color w:val="000000" />
+                                            <w:szCs w:val="24" />
+                                        </w:rPr>
+                                        <w:t>8</w:t>
+                                    </w:r>
+                                </w:p>
+                            </w:tc>
+                        </w:tr>
+                        
+                        <w:tr w:rsidR="006F5F44" w:rsidRPr="006F5F44" w:rsidTr="006F5F44">
+                            <w:trPr>
+                                <w:trHeight w:val="562" />
+                            </w:trPr>
+                            <w:tc>
+                                <w:tcPr>
+                                    <w:tcW w:w="820" w:type="dxa" />
+                                    <w:vMerge />
+                                    <w:tcBorders>
+                                        <w:top w:val="nil" />
+                                        <w:left w:val="single" w:sz="4" w:space="0" w:color="auto" />
+                                        <w:bottom w:val="single" w:sz="4" w:space="0" w:color="000000" />
+                                        <w:right w:val="single" w:sz="4" w:space="0" w:color="auto" />
+                                    </w:tcBorders>
+                                    <w:vAlign w:val="center" />
+                                    <w:hideMark />
+                                </w:tcPr>
+                                <w:p w:rsidR="006F5F44" w:rsidRPr="006F5F44" w:rsidRDefault="006F5F44" w:rsidP="006F5F44">
+                                    <w:pPr>
+                                        <w:spacing w:after="0" w:line="240" w:lineRule="auto" />
+                                        <w:rPr>
+                                            <w:rFonts w:ascii="华文仿宋" w:eastAsia="华文仿宋" w:hAnsi="华文仿宋" w:cs="Calibri" />
+                                            <w:color w:val="000000" />
+                                            <w:szCs w:val="24" />
+                                        </w:rPr>
+                                    </w:pPr>
+                                </w:p>
+                            </w:tc>
+                            <w:tc>
+                                <w:tcPr>
+                                    <w:tcW w:w="5380" w:type="dxa" />
+                                    <w:gridSpan w:val="3" />
+                                    <w:tcBorders>
+                                        <w:top w:val="single" w:sz="4" w:space="0" w:color="auto" />
+                                        <w:left w:val="nil" />
+                                        <w:bottom w:val="single" w:sz="4" w:space="0" w:color="auto" />
+                                        <w:right w:val="single" w:sz="4" w:space="0" w:color="000000" />
+                                    </w:tcBorders>
+                                    <w:shd w:val="clear" w:color="auto" w:fill="auto" />
+                                    <w:vAlign w:val="center" />
+                                    <w:hideMark />
+                                </w:tcPr>
+                                <w:p w:rsidR="006F5F44" w:rsidRPr="006F5F44" w:rsidRDefault="006F5F44" w:rsidP="006F5F44">
+                                    <w:pPr>
+                                        <w:spacing w:after="0" w:line="240" w:lineRule="auto" />
+                                        <w:rPr>
+                                            <w:rFonts w:ascii="宋体" w:eastAsia="宋体" w:hAnsi="宋体" w:cs="Calibri" />
+                                            <w:color w:val="000000" />
+                                            <w:szCs w:val="24" />
+                                        </w:rPr>
+                                    </w:pPr>
+                                    <w:r w:rsidRPr="006F5F44">
+                                        <w:rPr>
+                                            <w:rFonts w:ascii="宋体" w:eastAsia="宋体" w:hAnsi="宋体" w:cs="Calibri" w:hint="eastAsia" />
+                                            <w:color w:val="000000" />
+                                            <w:szCs w:val="24" />
+                                        </w:rPr>
+                                        <w:t>企业管理</w:t>
+                                    </w:r>
+                                </w:p>
+                            </w:tc>
+                            <w:tc>
+                                <w:tcPr>
+                                    <w:tcW w:w="2900" w:type="dxa" />
+                                    <w:tcBorders>
+                                        <w:top w:val="single" w:sz="4" w:space="0" w:color="auto" />
+                                        <w:left w:val="nil" />
+                                        <w:bottom w:val="single" w:sz="4" w:space="0" w:color="auto" />
+                                        <w:right w:val="single" w:sz="4" w:space="0" w:color="000000" />
+                                    </w:tcBorders>
+                                    <w:shd w:val="clear" w:color="auto" w:fill="auto" />
+                                    <w:vAlign w:val="center" />
+                                    <w:hideMark />
+                                </w:tcPr>
+                                <w:p w:rsidR="006F5F44" w:rsidRPr="006F5F44" w:rsidRDefault="006F5F44" w:rsidP="006F5F44">
+                                    <w:pPr>
+                                        <w:spacing w:after="0" w:line="240" w:lineRule="auto" />
+                                        <w:jc w:val="center" />
+                                        <w:rPr>
+                                            <w:rFonts w:ascii="宋体" w:eastAsia="宋体" w:hAnsi="宋体" w:cs="Calibri" />
+                                            <w:color w:val="000000" />
+                                            <w:szCs w:val="24" />
+                                        </w:rPr>
+                                    </w:pPr>
+                                    <w:r w:rsidRPr="006F5F44">
+                                        <w:rPr>
+                                            <w:rFonts w:ascii="宋体" w:eastAsia="宋体" w:hAnsi="宋体" w:cs="Calibri" w:hint="eastAsia" />
+                                            <w:color w:val="000000" />
+                                            <w:szCs w:val="24" />
+                                        </w:rPr>
+                                        <w:t>8</w:t>
+                                    </w:r>
+                                </w:p>
+                            </w:tc>
+                        </w:tr>
+                        
+                        <w:tr w:rsidR="006F5F44" w:rsidRPr="006F5F44" w:rsidTr="006F5F44">
+                            <w:trPr>
+                                <w:trHeight w:val="525" />
+                            </w:trPr>
+                            <w:tc>
+                                <w:tcPr>
+                                    <w:tcW w:w="820" w:type="dxa" />
+                                    <w:vMerge w:val="restart" />
+                                    <w:tcBorders>
+                                        <w:top w:val="nil" />
+                                        <w:left w:val="single" w:sz="4" w:space="0" w:color="auto" />
+                                        <w:bottom w:val="single" w:sz="4" w:space="0" w:color="000000" />
+                                        <w:right w:val="single" w:sz="4" w:space="0" w:color="auto" />
+                                    </w:tcBorders>
+                                    <w:shd w:val="clear" w:color="auto" w:fill="auto" />
+                                    <w:textDirection w:val="tbLrV" />
+                                    <w:vAlign w:val="center" />
+                                    <w:hideMark />
+                                </w:tcPr>
+                                <w:p w:rsidR="006F5F44" w:rsidRPr="006F5F44" w:rsidRDefault="006F5F44" w:rsidP="006F5F44">
+                                    <w:pPr>
+                                        <w:spacing w:after="0" w:line="240" w:lineRule="auto" />
+                                        <w:jc w:val="center" />
+                                        <w:rPr>
+                                            <w:rFonts w:ascii="华文仿宋" w:eastAsia="华文仿宋" w:hAnsi="华文仿宋" w:cs="Calibri" />
+                                            <w:color w:val="000000" />
+                                            <w:sz w:val="28" />
+                                            <w:szCs w:val="24" />
+                                        </w:rPr>
+                                    </w:pPr>
+                                    <w:r w:rsidRPr="006F5F44">
+                                        <w:rPr>
+                                            <w:rFonts w:ascii="华文仿宋" w:eastAsia="华文仿宋" w:hAnsi="华文仿宋" w:cs="Calibri" w:hint="eastAsia" />
+                                            <w:color w:val="000000" />
+                                            <w:sz w:val="28" />
+                                            <w:szCs w:val="24" />
+                                        </w:rPr>
+                                        <w:t>综合评定</w:t>
+                                    </w:r>
+                                </w:p>
+                            </w:tc>
+                            <w:tc>
+                                <w:tcPr>
+                                    <w:tcW w:w="5380" w:type="dxa" />
+                                    <w:gridSpan w:val="3" />
+                                    <w:tcBorders>
+                                        <w:top w:val="single" w:sz="4" w:space="0" w:color="auto" />
+                                        <w:left w:val="nil" />
+                                        <w:bottom w:val="single" w:sz="4" w:space="0" w:color="auto" />
+                                        <w:right w:val="single" w:sz="4" w:space="0" w:color="000000" />
+                                    </w:tcBorders>
+                                    <w:shd w:val="clear" w:color="auto" w:fill="auto" />
+                                    <w:vAlign w:val="center" />
+                                    <w:hideMark />
+                                </w:tcPr>
+                                <w:p w:rsidR="006F5F44" w:rsidRPr="006F5F44" w:rsidRDefault="006F5F44" w:rsidP="006F5F44">
+                                    <w:pPr>
+                                        <w:spacing w:after="0" w:line="240" w:lineRule="auto" />
+                                        <w:jc w:val="center" />
+                                        <w:rPr>
+                                            <w:rFonts w:ascii="华文仿宋" w:eastAsia="华文仿宋" w:hAnsi="华文仿宋" w:cs="Calibri" />
+                                            <w:color w:val="000000" />
+                                            <w:sz w:val="28" />
+                                            <w:szCs w:val="24" />
+                                        </w:rPr>
+                                    </w:pPr>
+                                    <w:r w:rsidRPr="006F5F44">
+                                        <w:rPr>
+                                            <w:rFonts w:ascii="华文仿宋" w:eastAsia="华文仿宋" w:hAnsi="华文仿宋" w:cs="Calibri" w:hint="eastAsia" />
+                                            <w:color w:val="000000" />
+                                            <w:sz w:val="28" />
+                                            <w:szCs w:val="24" />
+                                        </w:rPr>
+                                        <w:t>项目</w:t>
+                                    </w:r>
+                                </w:p>
+                            </w:tc>
+                            <w:tc>
+                                <w:tcPr>
+                                    <w:tcW w:w="2900" w:type="dxa" />
+                                    <w:tcBorders>
+                                        <w:top w:val="single" w:sz="4" w:space="0" w:color="auto" />
+                                        <w:left w:val="nil" />
+                                        <w:bottom w:val="single" w:sz="4" w:space="0" w:color="auto" />
+                                        <w:right w:val="single" w:sz="4" w:space="0" w:color="000000" />
+                                    </w:tcBorders>
+                                    <w:shd w:val="clear" w:color="auto" w:fill="auto" />
+                                    <w:vAlign w:val="center" />
+                                    <w:hideMark />
+                                </w:tcPr>
+                                <w:p w:rsidR="006F5F44" w:rsidRPr="006F5F44" w:rsidRDefault="006F5F44" w:rsidP="006F5F44">
+                                    <w:pPr>
+                                        <w:spacing w:after="0" w:line="240" w:lineRule="auto" />
+                                        <w:jc w:val="center" />
+                                        <w:rPr>
+                                            <w:rFonts w:ascii="华文仿宋" w:eastAsia="华文仿宋" w:hAnsi="华文仿宋" w:cs="Calibri" />
+                                            <w:color w:val="000000" />
+                                            <w:sz w:val="28" />
+                                            <w:szCs w:val="24" />
+                                        </w:rPr>
+                                    </w:pPr>
+                                    <w:r w:rsidRPr="006F5F44">
+                                        <w:rPr>
+                                            <w:rFonts w:ascii="华文仿宋" w:eastAsia="华文仿宋" w:hAnsi="华文仿宋" w:cs="Calibri" w:hint="eastAsia" />
+                                            <w:color w:val="000000" />
+                                            <w:sz w:val="28" />
+                                            <w:szCs w:val="24" />
+                                        </w:rPr>
+                                        <w:t>评分</w:t>
+                                    </w:r>
+                                </w:p>
+                            </w:tc>
+                        </w:tr>
+                        
+                        <w:tr w:rsidR="006F5F44" w:rsidRPr="006F5F44" w:rsidTr="006F5F44">
+                            <w:trPr>
+                                <w:trHeight w:val="578" />
+                            </w:trPr>
+                            <w:tc>
+                                <w:tcPr>
+                                    <w:tcW w:w="820" w:type="dxa" />
+                                    <w:vMerge />
+                                    <w:tcBorders>
+                                        <w:top w:val="nil" />
+                                        <w:left w:val="single" w:sz="4" w:space="0" w:color="auto" />
+                                        <w:bottom w:val="single" w:sz="4" w:space="0" w:color="000000" />
+                                        <w:right w:val="single" w:sz="4" w:space="0" w:color="auto" />
+                                    </w:tcBorders>
+                                    <w:vAlign w:val="center" />
+                                    <w:hideMark />
+                                </w:tcPr>
+                                <w:p w:rsidR="006F5F44" w:rsidRPr="006F5F44" w:rsidRDefault="006F5F44" w:rsidP="006F5F44">
+                                    <w:pPr>
+                                        <w:spacing w:after="0" w:line="240" w:lineRule="auto" />
+                                        <w:rPr>
+                                            <w:rFonts w:ascii="华文仿宋" w:eastAsia="华文仿宋" w:hAnsi="华文仿宋" w:cs="Calibri" />
+                                            <w:color w:val="000000" />
+                                            <w:szCs w:val="24" />
+                                        </w:rPr>
+                                    </w:pPr>
+                                </w:p>
+                            </w:tc>
+                            <w:tc>
+                                <w:tcPr>
+                                    <w:tcW w:w="5380" w:type="dxa" />
+                                    <w:gridSpan w:val="3" />
+                                    <w:tcBorders>
+                                        <w:top w:val="single" w:sz="4" w:space="0" w:color="auto" />
+                                        <w:left w:val="nil" />
+                                        <w:bottom w:val="single" w:sz="4" w:space="0" w:color="auto" />
+                                        <w:right w:val="single" w:sz="4" w:space="0" w:color="000000" />
+                                    </w:tcBorders>
+                                    <w:shd w:val="clear" w:color="auto" w:fill="auto" />
+                                    <w:vAlign w:val="center" />
+                                    <w:hideMark />
+                                </w:tcPr>
+                                <w:p w:rsidR="006F5F44" w:rsidRPr="006F5F44" w:rsidRDefault="006F5F44" w:rsidP="006F5F44">
+                                    <w:pPr>
+                                        <w:spacing w:after="0" w:line="240" w:lineRule="auto" />
+                                        <w:rPr>
+                                            <w:rFonts w:ascii="宋体" w:eastAsia="宋体" w:hAnsi="宋体" w:cs="Calibri" />
+                                            <w:color w:val="000000" />
+                                            <w:szCs w:val="24" />
+                                        </w:rPr>
+                                    </w:pPr>
+                                    <w:r w:rsidRPr="006F5F44">
+                                        <w:rPr>
+                                            <w:rFonts w:ascii="宋体" w:eastAsia="宋体" w:hAnsi="宋体" w:cs="Calibri" w:hint="eastAsia" />
+                                            <w:color w:val="000000" />
+                                            <w:szCs w:val="24" />
+                                        </w:rPr>
+                                        <w:t>纪律规范</w:t>
+                                    </w:r>
+                                </w:p>
+                            </w:tc>
+                            <w:tc>
+                                <w:tcPr>
+                                    <w:tcW w:w="2900" w:type="dxa" />
+                                    <w:tcBorders>
+                                        <w:top w:val="single" w:sz="4" w:space="0" w:color="auto" />
+                                        <w:left w:val="nil" />
+                                        <w:bottom w:val="single" w:sz="4" w:space="0" w:color="auto" />
+                                        <w:right w:val="single" w:sz="4" w:space="0" w:color="000000" />
+                                    </w:tcBorders>
+                                    <w:shd w:val="clear" w:color="auto" w:fill="auto" />
+                                    <w:vAlign w:val="center" />
+                                    <w:hideMark />
+                                </w:tcPr>
+                                <w:p w:rsidR="006F5F44" w:rsidRPr="006F5F44" w:rsidRDefault="006F5F44" w:rsidP="006F5F44">
+                                    <w:pPr>
+                                        <w:spacing w:after="0" w:line="240" w:lineRule="auto" />
+                                        <w:jc w:val="center" />
+                                        <w:rPr>
+                                            <w:rFonts w:ascii="宋体" w:eastAsia="宋体" w:hAnsi="宋体" w:cs="Calibri" />
+                                            <w:color w:val="000000" />
+                                            <w:szCs w:val="24" />
+                                        </w:rPr>
+                                    </w:pPr>
+                                    <w:r w:rsidRPr="006F5F44">
+                                        <w:rPr>
+                                            <w:rFonts w:ascii="宋体" w:eastAsia="宋体" w:hAnsi="宋体" w:cs="Calibri" w:hint="eastAsia" />
+                                            <w:color w:val="000000" />
+                                            <w:szCs w:val="24" />
+                                        </w:rPr>
+                                        <w:t>23</w:t>
+                                    </w:r>
+                                </w:p>
+                            </w:tc>
+                        </w:tr>
+                        
+                        <w:tr w:rsidR="006F5F44" w:rsidRPr="006F5F44" w:rsidTr="006F5F44">
+                            <w:trPr>
+                                <w:trHeight w:val="578" />
+                            </w:trPr>
+                            <w:tc>
+                                <w:tcPr>
+                                    <w:tcW w:w="820" w:type="dxa" />
+                                    <w:vMerge />
+                                    <w:tcBorders>
+                                        <w:top w:val="nil" />
+                                        <w:left w:val="single" w:sz="4" w:space="0" w:color="auto" />
+                                        <w:bottom w:val="single" w:sz="4" w:space="0" w:color="000000" />
+                                        <w:right w:val="single" w:sz="4" w:space="0" w:color="auto" />
+                                    </w:tcBorders>
+                                    <w:vAlign w:val="center" />
+                                    <w:hideMark />
+                                </w:tcPr>
+                                <w:p w:rsidR="006F5F44" w:rsidRPr="006F5F44" w:rsidRDefault="006F5F44" w:rsidP="006F5F44">
+                                    <w:pPr>
+                                        <w:spacing w:after="0" w:line="240" w:lineRule="auto" />
+                                        <w:rPr>
+                                            <w:rFonts w:ascii="华文仿宋" w:eastAsia="华文仿宋" w:hAnsi="华文仿宋" w:cs="Calibri" />
+                                            <w:color w:val="000000" />
+                                            <w:szCs w:val="24" />
+                                        </w:rPr>
+                                    </w:pPr>
+                                </w:p>
+                            </w:tc>
+                            <w:tc>
+                                <w:tcPr>
+                                    <w:tcW w:w="5380" w:type="dxa" />
+                                    <w:gridSpan w:val="3" />
+                                    <w:tcBorders>
+                                        <w:top w:val="single" w:sz="4" w:space="0" w:color="auto" />
+                                        <w:left w:val="nil" />
+                                        <w:bottom w:val="single" w:sz="4" w:space="0" w:color="auto" />
+                                        <w:right w:val="single" w:sz="4" w:space="0" w:color="000000" />
+                                    </w:tcBorders>
+                                    <w:shd w:val="clear" w:color="auto" w:fill="auto" />
+                                    <w:vAlign w:val="center" />
+                                    <w:hideMark />
+                                </w:tcPr>
+                                <w:p w:rsidR="006F5F44" w:rsidRPr="006F5F44" w:rsidRDefault="006F5F44" w:rsidP="006F5F44">
+                                    <w:pPr>
+                                        <w:spacing w:after="0" w:line="240" w:lineRule="auto" />
+                                        <w:rPr>
+                                            <w:rFonts w:ascii="宋体" w:eastAsia="宋体" w:hAnsi="宋体" w:cs="Calibri" />
+                                            <w:color w:val="000000" />
+                                            <w:szCs w:val="24" />
+                                        </w:rPr>
+                                    </w:pPr>
+                                    <w:r w:rsidRPr="006F5F44">
+                                        <w:rPr>
+                                            <w:rFonts w:ascii="宋体" w:eastAsia="宋体" w:hAnsi="宋体" w:cs="Calibri" w:hint="eastAsia" />
+                                            <w:color w:val="000000" />
+                                            <w:szCs w:val="24" />
+                                        </w:rPr>
+                                        <w:t>学习情况</w:t>
+                                    </w:r>
+                                </w:p>
+                            </w:tc>
+                            <w:tc>
+                                <w:tcPr>
+                                    <w:tcW w:w="2900" w:type="dxa" />
+                                    <w:tcBorders>
+                                        <w:top w:val="single" w:sz="4" w:space="0" w:color="auto" />
+                                        <w:left w:val="nil" />
+                                        <w:bottom w:val="single" w:sz="4" w:space="0" w:color="auto" />
+                                        <w:right w:val="single" w:sz="4" w:space="0" w:color="000000" />
+                                    </w:tcBorders>
+                                    <w:shd w:val="clear" w:color="auto" w:fill="auto" />
+                                    <w:vAlign w:val="center" />
+                                    <w:hideMark />
+                                </w:tcPr>
+                                <w:p w:rsidR="006F5F44" w:rsidRPr="006F5F44" w:rsidRDefault="006F5F44" w:rsidP="006F5F44">
+                                    <w:pPr>
+                                        <w:spacing w:after="0" w:line="240" w:lineRule="auto" />
+                                        <w:jc w:val="center" />
+                                        <w:rPr>
+                                            <w:rFonts w:ascii="宋体" w:eastAsia="宋体" w:hAnsi="宋体" w:cs="Calibri" />
+                                            <w:color w:val="000000" />
+                                            <w:szCs w:val="24" />
+                                        </w:rPr>
+                                    </w:pPr>
+                                    <w:r w:rsidRPr="006F5F44">
+                                        <w:rPr>
+                                            <w:rFonts w:ascii="宋体" w:eastAsia="宋体" w:hAnsi="宋体" w:cs="Calibri" w:hint="eastAsia" />
+                                            <w:color w:val="000000" />
+                                            <w:szCs w:val="24" />
+                                        </w:rPr>
+                                        <w:t>18</w:t>
+                                    </w:r>
+                                </w:p>
+                            </w:tc>
+                        </w:tr>
+                        
+                        <w:tr w:rsidR="006F5F44" w:rsidRPr="006F5F44" w:rsidTr="006F5F44">
+                            <w:trPr>
+                                <w:trHeight w:val="578" />
+                            </w:trPr>
+                            <w:tc>
+                                <w:tcPr>
+                                    <w:tcW w:w="820" w:type="dxa" />
+                                    <w:vMerge />
+                                    <w:tcBorders>
+                                        <w:top w:val="nil" />
+                                        <w:left w:val="single" w:sz="4" w:space="0" w:color="auto" />
+                                        <w:bottom w:val="single" w:sz="4" w:space="0" w:color="000000" />
+                                        <w:right w:val="single" w:sz="4" w:space="0" w:color="auto" />
+                                    </w:tcBorders>
+                                    <w:vAlign w:val="center" />
+                                    <w:hideMark />
+                                </w:tcPr>
+                                <w:p w:rsidR="006F5F44" w:rsidRPr="006F5F44" w:rsidRDefault="006F5F44" w:rsidP="006F5F44">
+                                    <w:pPr>
+                                        <w:spacing w:after="0" w:line="240" w:lineRule="auto" />
+                                        <w:rPr>
+                                            <w:rFonts w:ascii="华文仿宋" w:eastAsia="华文仿宋" w:hAnsi="华文仿宋" w:cs="Calibri" />
+                                            <w:color w:val="000000" />
+                                            <w:szCs w:val="24" />
+                                        </w:rPr>
+                                    </w:pPr>
+                                </w:p>
+                            </w:tc>
+                            <w:tc>
+                                <w:tcPr>
+                                    <w:tcW w:w="5380" w:type="dxa" />
+                                    <w:gridSpan w:val="3" />
+                                    <w:tcBorders>
+                                        <w:top w:val="single" w:sz="4" w:space="0" w:color="auto" />
+                                        <w:left w:val="nil" />
+                                        <w:bottom w:val="single" w:sz="4" w:space="0" w:color="auto" />
+                                        <w:right w:val="single" w:sz="4" w:space="0" w:color="000000" />
+                                    </w:tcBorders>
+                                    <w:shd w:val="clear" w:color="auto" w:fill="auto" />
+                                    <w:vAlign w:val="center" />
+                                    <w:hideMark />
+                                </w:tcPr>
+                                <w:p w:rsidR="006F5F44" w:rsidRPr="006F5F44" w:rsidRDefault="006F5F44" w:rsidP="006F5F44">
+                                    <w:pPr>
+                                        <w:spacing w:after="0" w:line="240" w:lineRule="auto" />
+                                        <w:rPr>
+                                            <w:rFonts w:ascii="宋体" w:eastAsia="宋体" w:hAnsi="宋体" w:cs="Calibri" />
+                                            <w:color w:val="000000" />
+                                            <w:szCs w:val="24" />
+                                        </w:rPr>
+                                    </w:pPr>
+                                    <w:r w:rsidRPr="006F5F44">
+                                        <w:rPr>
+                                            <w:rFonts w:ascii="宋体" w:eastAsia="宋体" w:hAnsi="宋体" w:cs="Calibri" w:hint="eastAsia" />
+                                            <w:color w:val="000000" />
+                                            <w:szCs w:val="24" />
+                                        </w:rPr>
+                                        <w:t>综合素养</w:t>
+                                    </w:r>
+                                </w:p>
+                            </w:tc>
+                            <w:tc>
+                                <w:tcPr>
+                                    <w:tcW w:w="2900" w:type="dxa" />
+                                    <w:tcBorders>
+                                        <w:top w:val="single" w:sz="4" w:space="0" w:color="auto" />
+                                        <w:left w:val="nil" />
+                                        <w:bottom w:val="single" w:sz="4" w:space="0" w:color="auto" />
+                                        <w:right w:val="single" w:sz="4" w:space="0" w:color="000000" />
+                                    </w:tcBorders>
+                                    <w:shd w:val="clear" w:color="auto" w:fill="auto" />
+                                    <w:vAlign w:val="center" />
+                                    <w:hideMark />
+                                </w:tcPr>
+                                <w:p w:rsidR="006F5F44" w:rsidRPr="006F5F44" w:rsidRDefault="006F5F44" w:rsidP="006F5F44">
+                                    <w:pPr>
+                                        <w:spacing w:after="0" w:line="240" w:lineRule="auto" />
+                                        <w:jc w:val="center" />
+                                        <w:rPr>
+                                            <w:rFonts w:ascii="宋体" w:eastAsia="宋体" w:hAnsi="宋体" w:cs="Calibri" />
+                                            <w:color w:val="000000" />
+                                            <w:szCs w:val="24" />
+                                        </w:rPr>
+                                    </w:pPr>
+                                    <w:r w:rsidRPr="006F5F44">
+                                        <w:rPr>
+                                            <w:rFonts w:ascii="宋体" w:eastAsia="宋体" w:hAnsi="宋体" w:cs="Calibri" w:hint="eastAsia" />
+                                            <w:color w:val="000000" />
+                                            <w:szCs w:val="24" />
+                                        </w:rPr>
+                                        <w:t>6</w:t>
+                                    </w:r>
+                                </w:p>
+                            </w:tc>
+                        </w:tr>
+                        
+                        <w:tr w:rsidR="006F5F44" w:rsidRPr="006F5F44" w:rsidTr="006F5F44">
+                            <w:trPr>
+                                <w:trHeight w:val="578" />
+                            </w:trPr>
+                            <w:tc>
+                                <w:tcPr>
+                                    <w:tcW w:w="820" w:type="dxa" />
+                                    <w:vMerge />
+                                    <w:tcBorders>
+                                        <w:top w:val="nil" />
+                                        <w:left w:val="single" w:sz="4" w:space="0" w:color="auto" />
+                                        <w:bottom w:val="single" w:sz="4" w:space="0" w:color="000000" />
+                                        <w:right w:val="single" w:sz="4" w:space="0" w:color="auto" />
+                                    </w:tcBorders>
+                                    <w:vAlign w:val="center" />
+                                    <w:hideMark />
+                                </w:tcPr>
+                                <w:p w:rsidR="006F5F44" w:rsidRPr="006F5F44" w:rsidRDefault="006F5F44" w:rsidP="006F5F44">
+                                    <w:pPr>
+                                        <w:spacing w:after="0" w:line="240" w:lineRule="auto" />
+                                        <w:rPr>
+                                            <w:rFonts w:ascii="华文仿宋" w:eastAsia="华文仿宋" w:hAnsi="华文仿宋" w:cs="Calibri" />
+                                            <w:color w:val="000000" />
+                                            <w:szCs w:val="24" />
+                                        </w:rPr>
+                                    </w:pPr>
+                                </w:p>
+                            </w:tc>
+                            <w:tc>
+                                <w:tcPr>
+                                    <w:tcW w:w="5380" w:type="dxa" />
+                                    <w:gridSpan w:val="3" />
+                                    <w:tcBorders>
+                                        <w:top w:val="single" w:sz="4" w:space="0" w:color="auto" />
+                                        <w:left w:val="nil" />
+                                        <w:bottom w:val="single" w:sz="4" w:space="0" w:color="auto" />
+                                        <w:right w:val="single" w:sz="4" w:space="0" w:color="000000" />
+                                    </w:tcBorders>
+                                    <w:shd w:val="clear" w:color="auto" w:fill="auto" />
+                                    <w:vAlign w:val="center" />
+                                    <w:hideMark />
+                                </w:tcPr>
+                                <w:p w:rsidR="006F5F44" w:rsidRPr="006F5F44" w:rsidRDefault="006F5F44" w:rsidP="006F5F44">
+                                    <w:pPr>
+                                        <w:spacing w:after="0" w:line="240" w:lineRule="auto" />
+                                        <w:rPr>
+                                            <w:rFonts w:ascii="宋体" w:eastAsia="宋体" w:hAnsi="宋体" w:cs="Calibri" />
+                                            <w:color w:val="000000" />
+                                            <w:szCs w:val="24" />
+                                        </w:rPr>
+                                    </w:pPr>
+                                    <w:r w:rsidRPr="006F5F44">
+                                        <w:rPr>
+                                            <w:rFonts w:ascii="宋体" w:eastAsia="宋体" w:hAnsi="宋体" w:cs="Calibri" w:hint="eastAsia" />
+                                            <w:color w:val="000000" />
+                                            <w:szCs w:val="24" />
+                                        </w:rPr>
+                                        <w:t>奖励加分</w:t>
+                                    </w:r>
+                                </w:p>
+                            </w:tc>
+                            <w:tc>
+                                <w:tcPr>
+                                    <w:tcW w:w="2900" w:type="dxa" />
+                                    <w:tcBorders>
+                                        <w:top w:val="single" w:sz="4" w:space="0" w:color="auto" />
+                                        <w:left w:val="nil" />
+                                        <w:bottom w:val="single" w:sz="4" w:space="0" w:color="auto" />
+                                        <w:right w:val="single" w:sz="4" w:space="0" w:color="000000" />
+                                    </w:tcBorders>
+                                    <w:shd w:val="clear" w:color="auto" w:fill="auto" />
+                                    <w:vAlign w:val="center" />
+                                    <w:hideMark />
+                                </w:tcPr>
+                                <w:p w:rsidR="006F5F44" w:rsidRPr="006F5F44" w:rsidRDefault="006F5F44" w:rsidP="006F5F44">
+                                    <w:pPr>
+                                        <w:spacing w:after="0" w:line="240" w:lineRule="auto" />
+                                        <w:jc w:val="center" />
+                                        <w:rPr>
+                                            <w:rFonts w:ascii="宋体" w:eastAsia="宋体" w:hAnsi="宋体" w:cs="Calibri" />
+                                            <w:color w:val="000000" />
+                                            <w:szCs w:val="24" />
+                                        </w:rPr>
+                                    </w:pPr>
+                                    <w:r w:rsidRPr="006F5F44">
+                                        <w:rPr>
+                                            <w:rFonts w:ascii="宋体" w:eastAsia="宋体" w:hAnsi="宋体" w:cs="Calibri" w:hint="eastAsia" />
+                                            <w:color w:val="000000" />
+                                            <w:szCs w:val="24" />
+                                        </w:rPr>
+                                        <w:t>8</w:t>
+                                    </w:r>
+                                </w:p>
+                            </w:tc>
+                        </w:tr>
+                        
+                        <w:tr w:rsidR="0009180C" w:rsidRPr="006F5F44" w:rsidTr="006F5F44">
+                            <w:trPr>
+                                <w:trHeight w:val="572" />
+                            </w:trPr>
+                            <w:tc>
+                                <w:tcPr>
+                                    <w:tcW w:w="820" w:type="dxa" />
+                                    <w:vMerge w:val="restart" />
+                                    <w:tcBorders>
+                                        <w:top w:val="nil" />
+                                        <w:left w:val="single" w:sz="4" w:space="0" w:color="auto" />
+                                        <w:bottom w:val="single" w:sz="4" w:space="0" w:color="000000" />
+                                        <w:right w:val="single" w:sz="4" w:space="0" w:color="auto" />
+                                    </w:tcBorders>
+                                    <w:shd w:val="clear" w:color="auto" w:fill="auto" />
+                                    <w:textDirection w:val="tbLrV" />
+                                    <w:vAlign w:val="center" />
+                                    <w:hideMark />
+                                </w:tcPr>
+                                <w:p w:rsidR="0009180C" w:rsidRPr="006F5F44" w:rsidRDefault="0009180C" w:rsidP="006F5F44">
+                                    <w:pPr>
+                                        <w:spacing w:after="0" w:line="240" w:lineRule="auto" />
+                                        <w:jc w:val="center" />
+                                        <w:rPr>
+                                            <w:rFonts w:ascii="华文仿宋" w:eastAsia="华文仿宋" w:hAnsi="华文仿宋" w:cs="Calibri" />
+                                            <w:color w:val="000000" />
+                                            <w:sz w:val="28" />
+                                            <w:szCs w:val="24" />
+                                        </w:rPr>
+                                    </w:pPr>
+                                    <w:r w:rsidRPr="006F5F44">
+                                        <w:rPr>
+                                            <w:rFonts w:ascii="华文仿宋" w:eastAsia="华文仿宋" w:hAnsi="华文仿宋" w:cs="Calibri" w:hint="eastAsia" />
+                                            <w:color w:val="000000" />
+                                            <w:sz w:val="28" />
+                                            <w:szCs w:val="24" />
+                                        </w:rPr>
+                                        <w:t>奖励记录</w:t>
+                                    </w:r>
+                                </w:p>
+                            </w:tc>
+                            <w:tc>
+                                <w:tcPr>
+                                    <w:tcW w:w="8280" w:type="dxa" />
+                                    <w:gridSpan w:val="4" />
+                                    <w:tcBorders>
+                                        <w:top w:val="single" w:sz="4" w:space="0" w:color="auto" />
+                                        <w:left w:val="nil" />
+                                        <w:bottom w:val="single" w:sz="4" w:space="0" w:color="auto" />
+                                        <w:right w:val="single" w:sz="4" w:space="0" w:color="000000" />
+                                    </w:tcBorders>
+                                    <w:shd w:val="clear" w:color="auto" w:fill="auto" />
+                                    <w:vAlign w:val="center" />
+                                    <w:hideMark />
+                                </w:tcPr>
+                                <w:p w:rsidR="0009180C" w:rsidRPr="006F5F44" w:rsidRDefault="0009180C" w:rsidP="00D817BD">
+                                    <w:pPr>
+                                        <w:spacing w:after="0" w:line="240" w:lineRule="auto" />
+                                        <w:jc w:val="center" />
+                                        <w:rPr>
+                                            <w:rFonts w:ascii="华文仿宋" w:eastAsia="华文仿宋" w:hAnsi="华文仿宋" w:cs="Calibri" />
+                                            <w:color w:val="000000" />
+                                            <w:sz w:val="28" />
+                                            <w:szCs w:val="24" />
+                                        </w:rPr>
+                                    </w:pPr>
+                                    <w:r w:rsidRPr="006F5F44">
+                                        <w:rPr>
+                                            <w:rFonts w:ascii="华文仿宋" w:eastAsia="华文仿宋" w:hAnsi="华文仿宋" w:cs="Calibri" w:hint="eastAsia" />
+                                            <w:color w:val="000000" />
+                                            <w:sz w:val="28" />
+                                            <w:szCs w:val="24" />
+                                        </w:rPr>
+                                        <w:t>项目</w:t>
+                                    </w:r>
+                                </w:p>
+                            </w:tc>
+                        </w:tr>
+                        
+                        <w:tr w:rsidR="006F5F44" w:rsidRPr="006F5F44" w:rsidTr="006F5F44">
+                            <w:trPr>
+                                <w:trHeight w:val="552" />
+                            </w:trPr>
+                            <w:tc>
+                                <w:tcPr>
+                                    <w:tcW w:w="820" w:type="dxa" />
+                                    <w:vMerge />
+                                    <w:tcBorders>
+                                        <w:top w:val="nil" />
+                                        <w:left w:val="single" w:sz="4" w:space="0" w:color="auto" />
+                                        <w:bottom w:val="single" w:sz="4" w:space="0" w:color="000000" />
+                                        <w:right w:val="single" w:sz="4" w:space="0" w:color="auto" />
+                                    </w:tcBorders>
+                                    <w:vAlign w:val="center" />
+                                    <w:hideMark />
+                                </w:tcPr>
+                                <w:p w:rsidR="006F5F44" w:rsidRPr="006F5F44" w:rsidRDefault="006F5F44" w:rsidP="006F5F44">
+                                    <w:pPr>
+                                        <w:spacing w:after="0" w:line="240" w:lineRule="auto" />
+                                        <w:rPr>
+                                            <w:rFonts w:ascii="华文仿宋" w:eastAsia="华文仿宋" w:hAnsi="华文仿宋" w:cs="Calibri" />
+                                            <w:color w:val="000000" />
+                                            <w:szCs w:val="24" />
+                                        </w:rPr>
+                                    </w:pPr>
+                                </w:p>
+                            </w:tc>
+                            <w:tc>
+                                <w:tcPr>
+                                    <w:tcW w:w="8280" w:type="dxa" />
+                                    <w:gridSpan w:val="4" />
+                                    <w:tcBorders>
+                                        <w:top w:val="single" w:sz="4" w:space="0" w:color="auto" />
+                                        <w:left w:val="nil" />
+                                        <w:bottom w:val="single" w:sz="4" w:space="0" w:color="auto" />
+                                        <w:right w:val="single" w:sz="4" w:space="0" w:color="000000" />
+                                    </w:tcBorders>
+                                    <w:shd w:val="clear" w:color="auto" w:fill="auto" />
+                                    <w:vAlign w:val="center" />
+                                    <w:hideMark />
+                                </w:tcPr>
+                                <w:p w:rsidR="006F5F44" w:rsidRPr="006F5F44" w:rsidRDefault="006F5F44" w:rsidP="006F5F44">
+                                    <w:pPr>
+                                        <w:spacing w:after="0" w:line="240" w:lineRule="auto" />
+                                        <w:rPr>
+                                            <w:rFonts w:ascii="宋体" w:eastAsia="宋体" w:hAnsi="宋体" w:cs="Calibri" />
+                                            <w:color w:val="000000" />
+                                            <w:szCs w:val="24" />
+                                        </w:rPr>
+                                    </w:pPr>
+                                    <w:r w:rsidRPr="006F5F44">
+                                        <w:rPr>
+                                            <w:rFonts w:ascii="宋体" w:eastAsia="宋体" w:hAnsi="宋体" w:cs="Calibri" w:hint="eastAsia" />
+                                            <w:color w:val="000000" />
+                                            <w:szCs w:val="24" />
+                                        </w:rPr>
+                                        <w:t>无</w:t>
+                                    </w:r>
+                                </w:p>
+                            </w:tc>
+                        </w:tr>
+                        
+                        <w:tr w:rsidR="0009180C" w:rsidRPr="006F5F44" w:rsidTr="006F5F44">
+                            <w:trPr>
+                                <w:trHeight w:val="546" />
+                            </w:trPr>
+                            <w:tc>
+                                <w:tcPr>
+                                    <w:tcW w:w="820" w:type="dxa" />
+                                    <w:vMerge w:val="restart" />
+                                    <w:tcBorders>
+                                        <w:top w:val="nil" />
+                                        <w:left w:val="single" w:sz="4" w:space="0" w:color="auto" />
+                                        <w:bottom w:val="single" w:sz="4" w:space="0" w:color="000000" />
+                                        <w:right w:val="single" w:sz="4" w:space="0" w:color="auto" />
+                                    </w:tcBorders>
+                                    <w:shd w:val="clear" w:color="auto" w:fill="auto" />
+                                    <w:textDirection w:val="tbLrV" />
+                                    <w:vAlign w:val="center" />
+                                    <w:hideMark />
+                                </w:tcPr>
+                                <w:p w:rsidR="0009180C" w:rsidRPr="006F5F44" w:rsidRDefault="0009180C" w:rsidP="006F5F44">
+                                    <w:pPr>
+                                        <w:spacing w:after="0" w:line="240" w:lineRule="auto" />
+                                        <w:jc w:val="center" />
+                                        <w:rPr>
+                                            <w:rFonts w:ascii="华文仿宋" w:eastAsia="华文仿宋" w:hAnsi="华文仿宋" w:cs="Calibri" />
+                                            <w:color w:val="000000" />
+                                            <w:sz w:val="28" />
+                                            <w:szCs w:val="24" />
+                                        </w:rPr>
+                                    </w:pPr>
+                                    <w:r w:rsidRPr="006F5F44">
+                                        <w:rPr>
+                                            <w:rFonts w:ascii="华文仿宋" w:eastAsia="华文仿宋" w:hAnsi="华文仿宋" w:cs="Calibri" w:hint="eastAsia" />
+                                            <w:color w:val="000000" />
+                                            <w:sz w:val="28" />
+                                            <w:szCs w:val="24" />
+                                        </w:rPr>
+                                        <w:t>处罚记录</w:t>
+                                    </w:r>
+                                </w:p>
+                            </w:tc>
+                            <w:tc>
+                                <w:tcPr>
+                                    <w:tcW w:w="8280" w:type="dxa" />
+                                    <w:gridSpan w:val="4" />
+                                    <w:tcBorders>
+                                        <w:top w:val="single" w:sz="4" w:space="0" w:color="auto" />
+                                        <w:left w:val="nil" />
+                                        <w:bottom w:val="single" w:sz="4" w:space="0" w:color="auto" />
+                                        <w:right w:val="single" w:sz="4" w:space="0" w:color="000000" />
+                                    </w:tcBorders>
+                                    <w:shd w:val="clear" w:color="auto" w:fill="auto" />
+                                    <w:vAlign w:val="center" />
+                                    <w:hideMark />
+                                </w:tcPr>
+                                <w:p w:rsidR="0009180C" w:rsidRPr="006F5F44" w:rsidRDefault="0009180C" w:rsidP="00D817BD">
+                                    <w:pPr>
+                                        <w:spacing w:after="0" w:line="240" w:lineRule="auto" />
+                                        <w:jc w:val="center" />
+                                        <w:rPr>
+                                            <w:rFonts w:ascii="华文仿宋" w:eastAsia="华文仿宋" w:hAnsi="华文仿宋" w:cs="Calibri" />
+                                            <w:color w:val="000000" />
+                                            <w:sz w:val="28" />
+                                            <w:szCs w:val="24" />
+                                        </w:rPr>
+                                    </w:pPr>
+                                    <w:r w:rsidRPr="006F5F44">
+                                        <w:rPr>
+                                            <w:rFonts w:ascii="华文仿宋" w:eastAsia="华文仿宋" w:hAnsi="华文仿宋" w:cs="Calibri" w:hint="eastAsia" />
+                                            <w:color w:val="000000" />
+                                            <w:sz w:val="28" />
+                                            <w:szCs w:val="24" />
+                                        </w:rPr>
+                                        <w:t>项目</w:t>
+                                    </w:r>
+                                </w:p>
+                            </w:tc>
+                        </w:tr>
+                        
+                        
+                        <w:tr w:rsidR="006F5F44" w:rsidRPr="006F5F44" w:rsidTr="006F5F44">
+                            <w:trPr>
+                                <w:trHeight w:val="554" />
+                            </w:trPr>
+                            <w:tc>
+                                <w:tcPr>
+                                    <w:tcW w:w="820" w:type="dxa" />
+                                    <w:vMerge />
+                                    <w:tcBorders>
+                                        <w:top w:val="nil" />
+                                        <w:left w:val="single" w:sz="4" w:space="0" w:color="auto" />
+                                        <w:bottom w:val="single" w:sz="4" w:space="0" w:color="000000" />
+                                        <w:right w:val="single" w:sz="4" w:space="0" w:color="auto" />
+                                    </w:tcBorders>
+                                    <w:vAlign w:val="center" />
+                                    <w:hideMark />
+                                </w:tcPr>
+                                <w:p w:rsidR="006F5F44" w:rsidRPr="006F5F44" w:rsidRDefault="006F5F44" w:rsidP="006F5F44">
+                                    <w:pPr>
+                                        <w:spacing w:after="0" w:line="240" w:lineRule="auto" />
+                                        <w:rPr>
+                                            <w:rFonts w:ascii="华文仿宋" w:eastAsia="华文仿宋" w:hAnsi="华文仿宋" w:cs="Calibri" />
+                                            <w:color w:val="000000" />
+                                            <w:szCs w:val="24" />
+                                        </w:rPr>
+                                    </w:pPr>
+                                </w:p>
+                            </w:tc>
+                            <w:tc>
+                                <w:tcPr>
+                                    <w:tcW w:w="8280" w:type="dxa" />
+                                    <w:gridSpan w:val="4" />
+                                    <w:tcBorders>
+                                        <w:top w:val="single" w:sz="4" w:space="0" w:color="auto" />
+                                        <w:left w:val="nil" />
+                                        <w:bottom w:val="single" w:sz="4" w:space="0" w:color="auto" />
+                                        <w:right w:val="single" w:sz="4" w:space="0" w:color="000000" />
+                                    </w:tcBorders>
+                                    <w:shd w:val="clear" w:color="auto" w:fill="auto" />
+                                    <w:vAlign w:val="center" />
+                                    <w:hideMark />
+                                </w:tcPr>
+                                <w:p w:rsidR="006F5F44" w:rsidRPr="006F5F44" w:rsidRDefault="006F5F44" w:rsidP="006F5F44">
+                                    <w:pPr>
+                                        <w:spacing w:after="0" w:line="240" w:lineRule="auto" />
+                                        <w:rPr>
+                                            <w:rFonts w:ascii="宋体" w:eastAsia="宋体" w:hAnsi="宋体" w:cs="Calibri" />
+                                            <w:color w:val="000000" />
+                                            <w:szCs w:val="24" />
+                                        </w:rPr>
+                                    </w:pPr>
+                                    <w:r w:rsidRPr="006F5F44">
+                                        <w:rPr>
+                                            <w:rFonts w:ascii="宋体" w:eastAsia="宋体" w:hAnsi="宋体" w:cs="Calibri" w:hint="eastAsia" />
+                                            <w:color w:val="000000" />
+                                            <w:szCs w:val="24" />
+                                        </w:rPr>
+                                        <w:t>了模糊葡萄XP你也是</w:t>
+                                    </w:r>
+                                </w:p>
+                            </w:tc>
+                        </w:tr>
+                        
+                        
+                        <w:tr w:rsidR="006F5F44" w:rsidRPr="006F5F44" w:rsidTr="006F5F44">
+                            <w:trPr>
+                                <w:trHeight w:val="495" />
+                            </w:trPr>
+                            <w:tc>
+                                <w:tcPr>
+                                    <w:tcW w:w="820" w:type="dxa" />
+                                    <w:vMerge w:val="restart" />
+                                    <w:tcBorders>
+                                        <w:top w:val="nil" />
+                                        <w:left w:val="single" w:sz="4" w:space="0" w:color="auto" />
+                                        <w:bottom w:val="single" w:sz="4" w:space="0" w:color="000000" />
+                                        <w:right w:val="single" w:sz="4" w:space="0" w:color="auto" />
+                                    </w:tcBorders>
+                                    <w:shd w:val="clear" w:color="auto" w:fill="auto" />
+                                    <w:textDirection w:val="tbLrV" />
+                                    <w:vAlign w:val="center" />
+                                    <w:hideMark />
+                                </w:tcPr>
+                                <w:p w:rsidR="006F5F44" w:rsidRPr="006F5F44" w:rsidRDefault="006F5F44" w:rsidP="006F5F44">
+                                    <w:pPr>
+                                        <w:spacing w:after="0" w:line="240" w:lineRule="auto" />
+                                        <w:jc w:val="center" />
+                                        <w:rPr>
+                                            <w:rFonts w:ascii="华文仿宋" w:eastAsia="华文仿宋" w:hAnsi="华文仿宋" w:cs="Calibri" />
+                                            <w:color w:val="000000" />
+                                            <w:sz w:val="28" />
+                                            <w:szCs w:val="24" />
+                                        </w:rPr>
+                                    </w:pPr>
+                                    <w:r w:rsidRPr="006F5F44">
+                                        <w:rPr>
+                                            <w:rFonts w:ascii="华文仿宋" w:eastAsia="华文仿宋" w:hAnsi="华文仿宋" w:cs="Calibri" w:hint="eastAsia" />
+                                            <w:color w:val="000000" />
+                                            <w:sz w:val="28" />
+                                            <w:szCs w:val="24" />
+                                        </w:rPr>
+                                        <w:t>实习经历</w:t>
+                                    </w:r>
+                                </w:p>
+                            </w:tc>
+                            <w:tc>
+                                <w:tcPr>
+                                    <w:tcW w:w="1480" w:type="dxa" />
+                                    <w:tcBorders>
+                                        <w:top w:val="nil" />
+                                        <w:left w:val="nil" />
+                                        <w:bottom w:val="single" w:sz="4" w:space="0" w:color="auto" />
+                                        <w:right w:val="single" w:sz="4" w:space="0" w:color="auto" />
+                                    </w:tcBorders>
+                                    <w:shd w:val="clear" w:color="auto" w:fill="auto" />
+                                    <w:vAlign w:val="center" />
+                                    <w:hideMark />
+                                </w:tcPr>
+                                <w:p w:rsidR="006F5F44" w:rsidRPr="006F5F44" w:rsidRDefault="006F5F44" w:rsidP="006F5F44">
+                                    <w:pPr>
+                                        <w:spacing w:after="0" w:line="240" w:lineRule="auto" />
+                                        <w:jc w:val="center" />
+                                        <w:rPr>
+                                            <w:rFonts w:ascii="华文仿宋" w:eastAsia="华文仿宋" w:hAnsi="华文仿宋" w:cs="Calibri" />
+                                            <w:color w:val="000000" />
+                                            <w:sz w:val="28" />
+                                            <w:szCs w:val="24" />
+                                        </w:rPr>
+                                    </w:pPr>
+                                    <w:r w:rsidRPr="006F5F44">
+                                        <w:rPr>
+                                            <w:rFonts w:ascii="华文仿宋" w:eastAsia="华文仿宋" w:hAnsi="华文仿宋" w:cs="Calibri" w:hint="eastAsia" />
+                                            <w:color w:val="000000" />
+                                            <w:sz w:val="28" />
+                                            <w:szCs w:val="24" />
+                                        </w:rPr>
+                                        <w:t>起始日期</w:t>
+                                    </w:r>
+                                </w:p>
+                            </w:tc>
+                            <w:tc>
+                                <w:tcPr>
+                                    <w:tcW w:w="1980" w:type="dxa" />
+                                    <w:tcBorders>
+                                        <w:top w:val="nil" />
+                                        <w:left w:val="nil" />
+                                        <w:bottom w:val="single" w:sz="4" w:space="0" w:color="auto" />
+                                        <w:right w:val="single" w:sz="4" w:space="0" w:color="auto" />
+                                    </w:tcBorders>
+                                    <w:shd w:val="clear" w:color="auto" w:fill="auto" />
+                                    <w:vAlign w:val="center" />
+                                    <w:hideMark />
+                                </w:tcPr>
+                                <w:p w:rsidR="006F5F44" w:rsidRPr="006F5F44" w:rsidRDefault="006F5F44" w:rsidP="006F5F44">
+                                    <w:pPr>
+                                        <w:spacing w:after="0" w:line="240" w:lineRule="auto" />
+                                        <w:jc w:val="center" />
+                                        <w:rPr>
+                                            <w:rFonts w:ascii="华文仿宋" w:eastAsia="华文仿宋" w:hAnsi="华文仿宋" w:cs="Calibri" />
+                                            <w:color w:val="000000" />
+                                            <w:sz w:val="28" />
+                                            <w:szCs w:val="24" />
+                                        </w:rPr>
+                                    </w:pPr>
+                                    <w:r w:rsidRPr="006F5F44">
+                                        <w:rPr>
+                                            <w:rFonts w:ascii="华文仿宋" w:eastAsia="华文仿宋" w:hAnsi="华文仿宋" w:cs="Calibri" w:hint="eastAsia" />
+                                            <w:color w:val="000000" />
+                                            <w:sz w:val="28" />
+                                            <w:szCs w:val="24" />
+                                        </w:rPr>
+                                        <w:t>截止日期</w:t>
+                                    </w:r>
+                                </w:p>
+                            </w:tc>
+                            <w:tc>
+                                <w:tcPr>
+                                    <w:tcW w:w="1920" w:type="dxa" />
+                                    <w:tcBorders>
+                                        <w:top w:val="nil" />
+                                        <w:left w:val="nil" />
+                                        <w:bottom w:val="single" w:sz="4" w:space="0" w:color="auto" />
+                                        <w:right w:val="single" w:sz="4" w:space="0" w:color="auto" />
+                                    </w:tcBorders>
+                                    <w:shd w:val="clear" w:color="auto" w:fill="auto" />
+                                    <w:vAlign w:val="center" />
+                                    <w:hideMark />
+                                </w:tcPr>
+                                <w:p w:rsidR="006F5F44" w:rsidRPr="006F5F44" w:rsidRDefault="006F5F44" w:rsidP="006F5F44">
+                                    <w:pPr>
+                                        <w:spacing w:after="0" w:line="240" w:lineRule="auto" />
+                                        <w:jc w:val="center" />
+                                        <w:rPr>
+                                            <w:rFonts w:ascii="华文仿宋" w:eastAsia="华文仿宋" w:hAnsi="华文仿宋" w:cs="Calibri" />
+                                            <w:color w:val="000000" />
+                                            <w:sz w:val="28" />
+                                            <w:szCs w:val="24" />
+                                        </w:rPr>
+                                    </w:pPr>
+                                    <w:r w:rsidRPr="006F5F44">
+                                        <w:rPr>
+                                            <w:rFonts w:ascii="华文仿宋" w:eastAsia="华文仿宋" w:hAnsi="华文仿宋" w:cs="Calibri" w:hint="eastAsia" />
+                                            <w:color w:val="000000" />
+                                            <w:sz w:val="28" />
+                                            <w:szCs w:val="24" />
+                                        </w:rPr>
+                                        <w:t>岗位</w:t>
+                                    </w:r>
+                                </w:p>
+                            </w:tc>
+                            <w:tc>
+                                <w:tcPr>
+                                    <w:tcW w:w="2900" w:type="dxa" />
+                                    <w:tcBorders>
+                                        <w:top w:val="single" w:sz="4" w:space="0" w:color="auto" />
+                                        <w:left w:val="nil" />
+                                        <w:bottom w:val="single" w:sz="4" w:space="0" w:color="auto" />
+                                        <w:right w:val="single" w:sz="4" w:space="0" w:color="000000" />
+                                    </w:tcBorders>
+                                    <w:shd w:val="clear" w:color="auto" w:fill="auto" />
+                                    <w:vAlign w:val="center" />
+                                    <w:hideMark />
+                                </w:tcPr>
+                                <w:p w:rsidR="006F5F44" w:rsidRPr="006F5F44" w:rsidRDefault="006F5F44" w:rsidP="006F5F44">
+                                    <w:pPr>
+                                        <w:spacing w:after="0" w:line="240" w:lineRule="auto" />
+                                        <w:jc w:val="center" />
+                                        <w:rPr>
+                                            <w:rFonts w:ascii="华文仿宋" w:eastAsia="华文仿宋" w:hAnsi="华文仿宋" w:cs="Calibri" />
+                                            <w:color w:val="000000" />
+                                            <w:sz w:val="28" />
+                                            <w:szCs w:val="24" />
+                                        </w:rPr>
+                                    </w:pPr>
+                                    <w:r w:rsidRPr="006F5F44">
+                                        <w:rPr>
+                                            <w:rFonts w:ascii="华文仿宋" w:eastAsia="华文仿宋" w:hAnsi="华文仿宋" w:cs="Calibri" w:hint="eastAsia" />
+                                            <w:color w:val="000000" />
+                                            <w:sz w:val="28" />
+                                            <w:szCs w:val="24" />
+                                        </w:rPr>
+                                        <w:t>单位</w:t>
+                                    </w:r>
+                                </w:p>
+                            </w:tc>
+                        </w:tr>
+                        
+                        <w:tr w:rsidR="006F5F44" w:rsidRPr="006F5F44" w:rsidTr="006F5F44">
+                            <w:trPr>
+                                <w:trHeight w:val="484" />
+                            </w:trPr>
+                            <w:tc>
+                                <w:tcPr>
+                                    <w:tcW w:w="820" w:type="dxa" />
+                                    <w:vMerge />
+                                    <w:tcBorders>
+                                        <w:top w:val="nil" />
+                                        <w:left w:val="single" w:sz="4" w:space="0" w:color="auto" />
+                                        <w:bottom w:val="single" w:sz="4" w:space="0" w:color="000000" />
+                                        <w:right w:val="single" w:sz="4" w:space="0" w:color="auto" />
+                                    </w:tcBorders>
+                                    <w:vAlign w:val="center" />
+                                    <w:hideMark />
+                                </w:tcPr>
+                                <w:p w:rsidR="006F5F44" w:rsidRPr="006F5F44" w:rsidRDefault="006F5F44" w:rsidP="006F5F44">
+                                    <w:pPr>
+                                        <w:spacing w:after="0" w:line="240" w:lineRule="auto" />
+                                        <w:rPr>
+                                            <w:rFonts w:ascii="华文仿宋" w:eastAsia="华文仿宋" w:hAnsi="华文仿宋" w:cs="Calibri" />
+                                            <w:color w:val="000000" />
+                                            <w:szCs w:val="24" />
+                                        </w:rPr>
+                                    </w:pPr>
+                                </w:p>
+                            </w:tc>
+                            <w:tc>
+                                <w:tcPr>
+                                    <w:tcW w:w="1480" w:type="dxa" />
+                                    <w:tcBorders>
+                                        <w:top w:val="nil" />
+                                        <w:left w:val="nil" />
+                                        <w:bottom w:val="single" w:sz="4" w:space="0" w:color="auto" />
+                                        <w:right w:val="single" w:sz="4" w:space="0" w:color="auto" />
+                                    </w:tcBorders>
+                                    <w:shd w:val="clear" w:color="auto" w:fill="auto" />
+                                    <w:vAlign w:val="center" />
+                                    <w:hideMark />
+                                </w:tcPr>
+                                <w:p w:rsidR="006F5F44" w:rsidRPr="006F5F44" w:rsidRDefault="006F5F44" w:rsidP="006F5F44">
+                                    <w:pPr>
+                                        <w:spacing w:after="0" w:line="240" w:lineRule="auto" />
+                                        <w:jc w:val="center" />
+                                        <w:rPr>
+                                            <w:rFonts w:ascii="宋体" w:eastAsia="宋体" w:hAnsi="宋体" w:cs="Calibri" />
+                                            <w:color w:val="000000" />
+                                            <w:szCs w:val="24" />
+                                        </w:rPr>
+                                    </w:pPr>
+                                    <w:r w:rsidRPr="006F5F44">
+                                        <w:rPr>
+                                            <w:rFonts w:ascii="宋体" w:eastAsia="宋体" w:hAnsi="宋体" w:cs="Calibri" w:hint="eastAsia" />
+                                            <w:color w:val="000000" />
+                                            <w:szCs w:val="24" />
+                                        </w:rPr>
+                                        <w:t>
