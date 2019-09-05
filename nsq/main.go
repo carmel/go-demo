@@ -22,7 +22,7 @@ type Authorization struct {
 }
 
 type State struct {
-	TTL            int             `json:"ttl"`
+	TTL            int             `json:"ttl"` // 每隔几秒查询一次授权服务器
 	Authorizations []Authorization `json:"authorizations"`
 	Identity       string          `json:"identity"`
 	IdentityURL    string          `json:"identity_url"`
@@ -87,16 +87,6 @@ func startProducer() {
 		i++
 		time.Sleep(1 * time.Second)
 	}
-	// go func() {
-	// 	for {
-	// 		if err := producer.Publish("test", []byte(fmt.Sprintf("test message %d", i))); err != nil {
-	// 			log.Fatal("publish error: " + err.Error())
-	// 		}
-	// 		i++
-	// 		time.Sleep(1 * time.Second)
-	// 	}
-	// }()
-
 }
 
 // 消费者
