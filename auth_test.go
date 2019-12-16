@@ -1,4 +1,4 @@
-package test
+package pool_test
 
 import (
 	"github.com/mikespook/gorbac"
