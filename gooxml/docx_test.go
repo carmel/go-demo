@@ -48,7 +48,7 @@ func TestImage(t *testing.T) {
 		row = table.AddRow()
 		cell = row.AddCell()
 		cell.Properties().SetVerticalAlignment(wml.ST_VerticalJcCenter)
-		// cell.Properties().SetVerticalMerge(wml.ST_MergeRestart)
+		cell.Properties().SetVerticalMerge(wml.ST_MergeRestart)
 		cell.AddParagraph().AddRun().AddText("Vertical Merge")
 		para = row.AddCell().AddParagraph()
 		para.Properties().SetAlignment(wml.ST_JcCenter)
@@ -58,7 +58,7 @@ func TestImage(t *testing.T) {
 		cell = row.AddCell()
 		cell.Properties().SetVerticalMerge(wml.ST_MergeContinue)
 		cell.AddParagraph().AddRun().AddText("Vertical Merge 2")
-		row.AddCell().AddParagraph().AddRun().AddText("")
+		row.AddCell().AddParagraph().AddRun().AddText("1122")
 
 		row = table.AddRow()
 		row.AddCell().AddParagraph().AddRun().AddText("Street Address")
@@ -193,4 +193,58 @@ func TestTemp(t *testing.T) {
 		}
 	}
 	doc.SaveToFile("use-template.docx")
+}
+
+func TestArchive(t *testing.T) {
+	doc := document.New()
+
+	para := doc.AddParagraph()
+	para.Properties().SetAlignment(wml.ST_JcCenter)
+	run := para.AddRun()
+	run.Properties().SetBold(true)
+	run.Properties().SetFontFamily("仿宋")
+	para.SetStyle("Title")
+	run.AddText("学徒业务档案")
+
+	table := doc.AddTable()
+	// 4 inches wide
+	table.Properties().SetWidthPercent(100)
+	table.Properties().Borders().SetAll(wml.ST_BorderSingle, color.Auto, measurement.Zero)
+	table.Properties().SetAlignment(wml.ST_JcTableCenter)
+
+	row := table.AddRow()
+	row.Properties().SetHeight(0.54*measurement.Inch, wml.ST_HeightRuleExact)
+
+	cell := row.AddCell()
+	cell.Properties().SetVerticalAlignment(wml.ST_VerticalJcCenter)
+	cell.Properties().SetColumnSpan(3)
+	para = cell.AddParagraph()
+	para.Properties().SetAlignment(wml.ST_JcCenter)
+	run = para.AddRun()
+	run.Properties().SetBold(true)
+	run.Properties().SetFontFamily("仿宋")
+	run.Properties().SetSize(18)
+	run.AddText("姓名")
+
+	cell = row.AddCell()
+	cell.Properties().SetVerticalAlignment(wml.ST_VerticalJcCenter)
+	cell.Properties().SetColumnSpan(3)
+	para = cell.AddParagraph()
+	para.Properties().SetAlignment(wml.ST_JcCenter)
+	run = para.AddRun()
+	run.Properties().SetFontFamily("仿宋")
+	run.Properties().SetSize(18)
+	run.AddText("张三")
+
+	cell = row.AddCell()
+	cell.Properties().SetVerticalAlignment(wml.ST_VerticalJcCenter)
+	cell.Properties().SetColumnSpan(2)
+	para = cell.AddParagraph()
+	para.Properties().SetAlignment(wml.ST_JcCenter)
+	run = para.AddRun()
+	run.Properties().SetFontFamily("仿宋")
+	run.Properties().SetSize(18)
+	run.AddText("照片")
+
+	doc.SaveToFile("arc.docx")
 }
