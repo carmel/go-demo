@@ -2,6 +2,7 @@ package test
 
 import (
 	"fmt"
+	"testing"
 )
 
 type Person struct {
@@ -16,7 +17,7 @@ type Student struct {
 	Person
 }
 
-func main() {
+func TestInherit(t *testing.T) {
 	var s = Student{Person{"Vector"}}
 	fmt.Println(s.name)
 	s.Say()

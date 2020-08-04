@@ -2,14 +2,16 @@ package test
 
 import (
 	"fmt"
-	"github.com/gorilla/mux"
-	"github.com/urfave/negroni"
 	"log"
 	"net/http"
+	"testing"
 	"time"
+
+	"github.com/gorilla/mux"
+	"github.com/urfave/negroni"
 )
 
-func main() {
+func TestNegroni(t *testing.T) {
 	//      Routes:
 	r := mux.NewRouter().StrictSlash(false)
 
@@ -109,9 +111,9 @@ func PostEditHandler(rw http.ResponseWriter, r *http.Request) {
 }
 
 /*      Auth handlers   */
-func LoginHandler(rw http.ResponseWriter, r *http.Request) {
-	fmt.Fprintln(rw, "login")
-}
+// func LoginHandler(rw http.ResponseWriter, r *http.Request) {
+// 	fmt.Fprintln(rw, "login")
+// }
 
 func LogoutHandler(rw http.ResponseWriter, r *http.Request) {
 	fmt.Fprintln(rw, "logout")

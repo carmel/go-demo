@@ -4,6 +4,7 @@ import (
 	"fmt"
 	"strconv"
 	"strings"
+	"testing"
 	"time"
 )
 
@@ -19,15 +20,15 @@ func timerJob(t, d string) {
 
 	var err error
 	if hour, err = strconv.Atoi(ts[0]); err != nil {
-		fmt.Errorf("time format error: ", err)
+		fmt.Errorf("time format error: %v", err)
 	}
 
 	if min, err = strconv.Atoi(ts[1]); err != nil {
-		fmt.Errorf("time format error: ", err)
+		fmt.Errorf("time format error: %v", err)
 	}
 
 	if hour < 0 || hour > 23 || min < 0 || min > 59 {
-		fmt.Errorf("time format error: ", t)
+		fmt.Errorf("time format error: %v", err)
 	}
 	dp, err := time.ParseDuration(d)
 	if err == nil {
@@ -53,7 +54,7 @@ func timerJob(t, d string) {
 	}
 }
 
-func main() {
+func TestTimeJob(t *testing.T) {
 	// 15:13开始运行, 每隔10s运行一次
 	timerJob("15:13", "10s")
 	ticker := time.NewTicker(2 * time.Second)

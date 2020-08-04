@@ -3,10 +3,11 @@ package test
 import (
 	"fmt"
 	"reflect"
+	"testing"
 	"time"
 )
 
-type User struct {
+type U struct {
 	Id    int
 	Name  string
 	Birth time.Time
@@ -37,9 +38,9 @@ Fields:
  Birth: time.Time = 2018-01-11 20:50:58.8164074 +0800 CST m=+0.002000101
 */
 
-func main() {
+func TestReflect(ts *testing.T) {
 	//	u := User{12, "Chen", time.Now()}
 	//	StructInfo(u)
-	t := reflect.New(reflect.TypeOf("User"))
+	t := reflect.New(reflect.TypeOf("U"))
 	fmt.Println(t)
 }

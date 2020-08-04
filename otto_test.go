@@ -2,10 +2,12 @@ package test
 
 import (
 	"fmt"
+	"testing"
+
 	"github.com/robertkrimen/otto"
 )
 
-func main() {
+func TestOtto(t *testing.T) {
 	schema := `
 	var d = document.getElementById("test");
 	d.innerHTML = "Hello, World!";
@@ -14,7 +16,7 @@ func main() {
 	vm.Set("self", "dfdfdfd")
 	val, err := vm.Eval(schema)
 	if err != nil {
-		fmt.Println("%v\n", err)
+		fmt.Println(err)
 	}
 	val.Object()
 	fmt.Println(val)

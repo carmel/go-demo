@@ -3,9 +3,10 @@ package test
 import (
 	"container/list"
 	"fmt"
+	"testing"
 )
 
-func main() {
+func TestQueue(t *testing.T) {
 	// 创建队列
 	l := list.New()
 	// 入队or压栈

@@ -2,6 +2,7 @@ package test
 
 import (
 	"fmt"
+	"testing"
 )
 
 type Sortable interface {
@@ -51,7 +52,7 @@ func (array StringArr) Swap(i int, j int) {
 }
 
 //测试
-func main() {
+func TestGeneric(t *testing.T) {
 	intArray1 := IntArr{3, 4, 2, 6, 10, 1}
 	bubbleSort(intArray1)
 	fmt.Println(intArray1)

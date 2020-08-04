@@ -2,6 +2,7 @@ package test
 
 import (
 	"encoding/json"
+	"fmt"
 	"os"
 	"sync"
 )
@@ -17,7 +18,7 @@ var (
 	dbconf *DBConfig
 )
 
-func init() {
+func Init() {
 	GetDBConfig()
 }
 
@@ -31,9 +32,13 @@ func GetDBConfig() *DBConfig {
 
 func setConfig(path string, conf interface{}) {
 	file, err := os.Open(path)
-	ErrorHandler(err, false)
+	if err != nil {
+		fmt.Println(err)
+	}
 	defer file.Close()
 	decoder := json.NewDecoder(file)
 	err = decoder.Decode(dbconf)
-	ErrorHandler(err, false)
+	if err != nil {
+		fmt.Println(err)
+	}
 }

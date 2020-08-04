@@ -6,6 +6,7 @@ import (
 	"log"
 	"net/http"
 	"strings"
+	"testing"
 	"time"
 
 	"github.com/dgrijalva/jwt-go"
@@ -56,7 +57,7 @@ func StartServer() {
 	http.ListenAndServe(":8080", nil)
 }
 
-func main() {
+func TestJwt(t *testing.T) {
 	StartServer()
 }
 

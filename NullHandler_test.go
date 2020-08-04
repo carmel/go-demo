@@ -5,6 +5,7 @@ import (
 	"encoding/json"
 	"fmt"
 	"reflect"
+	"testing"
 	"time"
 
 	"github.com/jmoiron/sqlx"
@@ -220,7 +221,7 @@ func (nt *NullTime) UnmarshalJSON(b []byte) error {
 }
 
 // MAIN program starts here
-func main() {
+func TestNullHandler(t *testing.T) {
 
 	DB, err := sqlx.Connect("postgres", "postgres://postgres:tygspg2017@47.104.106.121:5432/sun_dev?sslmode=disable")
 	defer DB.Close()
@@ -246,10 +247,10 @@ func main() {
 	}
 	sql := "SELECT remark,id,name,pid,sign,creator,modifier,version,create_time,status,modify_time FROM ca_resource limit $1"
 
-	var m interface{}
+	var m map[string]interface{}
 	m = make(map[string]interface{})
 	DB.QueryRowx(sql, 1).MapScan(m)
-	fmt.Printf("m: ", m)
+	fmt.Printf("m: %s", m)
 
 	//o := map[string]interface{}{"city": "hangzhou", "country": "zhongguo", "telcode": 198}
 	//_, err = DB.NamedExec(`INSERT INTO place(city,telcode)VALUES(:city,:telcode)`, o)

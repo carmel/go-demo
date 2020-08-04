@@ -3,6 +3,7 @@ package test
 import (
 	"fmt"
 	"runtime"
+	"testing"
 	"time"
 )
 
@@ -21,7 +22,7 @@ func init() {
 	}
 }
 
-func main() {
+func TestGoroutine(t *testing.T) {
 	fmt.Println("main")
 
 	//启一个go方法 ， 无限制的往readChan里塞数据

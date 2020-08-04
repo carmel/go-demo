@@ -11,9 +11,10 @@ import (
 	"container/list"
 	"fmt"
 	"math"
+	"testing"
 )
 
-func main() {
+func TestBin(t *testing.T) {
 	//	var a int32
 	//	a = 35
 	//	fmt.Printf("%b\n", a)

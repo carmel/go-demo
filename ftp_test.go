@@ -3,11 +3,12 @@ package test
 import (
 	"log"
 	"os"
+	"testing"
 
 	"gopkg.in/dutchcoders/goftp.v1"
 )
 
-func main() {
+func TestFtp(t *testing.T) {
 	var err error
 	var ftp *goftp.FTP
 

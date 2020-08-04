@@ -1,12 +1,11 @@
 package test
 
 import (
-	"fmt"
 	"log"
-	"os"
+	"testing"
 )
 
-func main() {
+func TestSsh(t *testing.T) {
 	ssh := &MakeConfig{
 		User:     "root",
 		Server:   "47.96.146.146",

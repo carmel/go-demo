@@ -3,10 +3,11 @@ package test
 import (
 	"context"
 	"fmt"
+	"testing"
 	"time"
 )
 
-func main() {
+func TestContext(t *testing.T) {
 	c, cancel := context.WithCancel(context.Background())
 	ctx := context.WithValue(c, "key", "main携带的值")
 	go func(ctx context.Context) {

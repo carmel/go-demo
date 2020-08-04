@@ -4,7 +4,7 @@ import (
 	"fmt"
 )
 
-func main() {
+func main1() {
 	arr := []int{3, 2, 4}
 	fmt.Println(twoSum(arr, 6))
 }

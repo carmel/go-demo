@@ -2,9 +2,10 @@ package test
 
 import (
 	"fmt"
+	"testing"
 )
 
-func main() {
+func TestScan(t *testing.T) {
 	fmt.Println("----循环扫码---")
 	var s string
 	str := make(chan string, 1)

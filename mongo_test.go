@@ -4,6 +4,7 @@ import (
 	"context"
 	"runtime/debug"
 	"sync"
+	"testing"
 	"time"
 
 	"go.mongodb.org/mongo-driver/bson"
@@ -33,13 +34,18 @@ type MongoClient struct {
 
 var Mongo *MongoClient
 
+var Conf struct {
+	MongoUri string
+	MongoDB  string
+}
+
 func init() {
 
 	var once sync.Once
 	once.Do(func() {
 		ctx, cancel := context.WithTimeout(context.Background(), 10*time.Second)
 		defer cancel() // bug may happen
-		if client, err := mongo.Connect(ctx, options.Client().ApplyURI(Conf.String("mongo::uri"))); err == nil {
+		if client, err := mongo.Connect(ctx, options.Client().ApplyURI(Conf.MongoUri)); err == nil {
 			Mongo = &MongoClient{}
 			Mongo.Ctx = ctx
 			Mongo.Client = client
@@ -58,8 +64,8 @@ func (m *MongoClient) Create(collection string, e BaseEntity) (error, string) {
 			}
 		}
 	}()
-	collections := m.Client.Database(Conf.String("mongo::db")).Collection(collection)
-	e.SetId(UUID())
+	collections := m.Client.Database(Conf.MongoDB).Collection(collection)
+	// e.SetId(UUID())
 	if cid, err := collections.InsertOne(m.Ctx, e); err == nil {
 		return nil, cid.InsertedID.(primitive.ObjectID).Hex()
 	}
@@ -76,7 +82,7 @@ func (m *MongoClient) Get(collection, id string) (err error, e BaseEntity) {
 			}
 		}
 	}()
-	collections := m.Client.Database(Conf.String("mongo::db")).Collection(collection)
+	collections := m.Client.Database(Conf.MongoDB).Collection(collection)
 	objID, _ := primitive.ObjectIDFromHex(id)
 	result := collections.FindOne(m.Ctx, bson.M{"_id": objID})
 	result.Decode(&e)
@@ -93,7 +99,7 @@ func (m *MongoClient) GetOne(collection, id string) (err error, e interface{}) {
 			}
 		}
 	}()
-	collections := m.Client.Database(Conf.String("mongo::db")).Collection(collection)
+	collections := m.Client.Database(Conf.MongoDB).Collection(collection)
 	result := collections.FindOne(m.Ctx, bson.M{"Id": id})
 	result.Decode(&e)
 	return
@@ -114,7 +120,7 @@ func (m *MongoClient) Count(collection string, filter PageFilter) (err error, c 
 			filter.Filter[k] = primitive.Regex{Pattern: v, Options: ""}
 		}
 	}
-	collections := m.Client.Database(Conf.String("mongo::db")).Collection(collection)
+	collections := m.Client.Database(Conf.MongoDB).Collection(collection)
 	collections.CountDocuments(m.Ctx, filter.Filter, &options.CountOptions{Skip: filter.Skip, Limit: filter.Limit})
 	return
 }
@@ -134,7 +140,7 @@ func (m *MongoClient) List(collection string, filter PageFilter) (err error, e [
 			filter.Filter[k] = primitive.Regex{Pattern: v, Options: ""}
 		}
 	}
-	collections := m.Client.Database(Conf.String("mongo::db")).Collection(collection)
+	collections := m.Client.Database(Conf.MongoDB).Collection(collection)
 	cur, err := collections.Find(m.Ctx, filter, &options.FindOptions{Limit: filter.Limit, Skip: filter.Skip, Sort: bson.M{filter.SortBy: filter.SortMode}})
 	defer cur.Close(m.Ctx)
 	if err == nil {
@@ -158,7 +164,7 @@ func (m *MongoClient) Delete(collection, id string) (error, bool) {
 		}
 	}()
 
-	collections := m.Client.Database(Conf.String("mongo::db")).Collection(collection)
+	collections := m.Client.Database(Conf.MongoDB).Collection(collection)
 	objID, _ := primitive.ObjectIDFromHex(id)
 	result, err := collections.DeleteOne(m.Ctx, bson.M{"_id": objID})
 	return err, result.DeletedCount == 1
@@ -176,7 +182,7 @@ func (m *MongoClient) Modify(collection string, e BaseEntity) (error, bool) {
 			}
 		}
 	}()
-	collections := m.Client.Database(Conf.String("mongo::db")).Collection(collection)
+	collections := m.Client.Database(Conf.MongoDB).Collection(collection)
 	// collections.UpdateOne
 	// collections.UpdateMany
 	objID, _ := primitive.ObjectIDFromHex(e.GetId())
@@ -199,7 +205,7 @@ func (e *Test) SetId(id string) {
 	e.Id = id
 }
 
-func main() {
+func TestMongo(ts *testing.T) {
 	var t Test
 	Mongo.Create("LicenseReview", &t)
 }

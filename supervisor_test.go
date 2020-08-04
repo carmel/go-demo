@@ -4,6 +4,7 @@ import (
 	"log"
 	"math/rand"
 	"runtime"
+	"testing"
 	"time"
 )
 
@@ -12,16 +13,16 @@ type message struct {
 	state  map[string]interface{} //goroutine state
 }
 
-func main() {
+func TestSupevisor(t *testing.T) {
 	runtime.GOMAXPROCS(runtime.NumCPU())
 	mess := make(chan message, 10)
 	for i := 0; i < 100; i++ {
-		go worker(mess)
+		go sworker(mess)
 	}
 	supervisor(mess)
 }
 
-func worker(mess chan message) {
+func sworker(mess chan message) {
 	defer func() {
 		exit_message := message{state: make(map[string]interface{})}
 		i := recover()

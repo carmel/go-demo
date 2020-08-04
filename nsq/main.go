@@ -6,6 +6,7 @@ import (
 	"fmt"
 	"log"
 	"net/http"
+	"testing"
 	"time"
 
 	"github.com/nsqio/go-nsq"
@@ -29,7 +30,7 @@ type State struct {
 	Expires        time.Time
 }
 
-func main() {
+func TestFunc(t *testing.T) {
 
 	go func() {
 		time.Sleep(6 * time.Second)

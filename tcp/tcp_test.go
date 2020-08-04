@@ -7,16 +7,16 @@ import (
 	"fmt"
 	"io"
 	"net"
-	"strconv"
-	"strings"
 	"sync"
 	"testing"
 )
 
-const Msg_Header = "12345678"
+const Msg_Header = "##"
 
+// 原报文: "##0158QN=20180531225849000;ST=31;CN=2011;PW=123456;MN=010000A8900016F018010001;Flag=5;CP=&&DataTime=20180531225849;a34041-Rtd=0.00,a34041-Flag=N;SB7-RS=2;SB8-RS=2&&9181\r\n"
+// 报文格式: 2byte包头(##) + 数据段长度(4byte十进制数) + CRC校验(4byte十六进制数) + 包尾(\r\n，2byte)
 func Connector(addr string, sendTimes int) {
-	const msg = "我是一个完完整整完完整整完完整整完完整整完完整整完完整整完完整整完完整整完完整整完完整整完完整整完完整整完完整整完完整整完完整整完完整整完完整整完完整整完完整整完完整整完完整整完完整整完完整整完完整整完完整整完完整整完完整整完完整整完完整整完完整整完完整整完完整整完完整整完完整整完完整整完完整整完完整整完完整整完完整整完完整整的数据包"
+	const msg = "QN=20180531225849000;ST=31;CN=2011;PW=123456;MN=010000A8900016F018010001;Flag=5;CP=&&DataTime=20180531225849;a34041-Rtd=0.00,a34041-Flag=N;SB7-RS=2;SB8-RS=2&&"
 	// 创建连接
 	conn, err := net.Dial("tcp", addr)
 	if err != nil {
@@ -26,7 +26,7 @@ func Connector(addr string, sendTimes int) {
 
 	// 循环请求
 	for i := 0; i < sendTimes; i++ {
-		err := Encode(conn, fmt.Sprintf("%d:%s", i, msg))
+		err := Encode(conn, msg)
 		if err != nil {
 			fmt.Println("发送错误：", err)
 			break
@@ -91,8 +91,6 @@ func handleSession(conn net.Conn, callback func(net.Conn, []byte) bool) {
 }
 
 func Encode(bytesBuffer io.Writer, content string) error {
-	//msg_header+content_len+content
-	//8			+4			+content
 	if err := binary.Write(bytesBuffer, binary.BigEndian, []byte(Msg_Header)); err != nil {
 		return err
 	}
@@ -103,6 +101,8 @@ func Encode(bytesBuffer io.Writer, content string) error {
 	if err := binary.Write(bytesBuffer, binary.BigEndian, []byte(content)); err != nil {
 		return err
 	}
+	binary.Write(bytesBuffer, binary.BigEndian, []byte("9181"))
+	binary.Write(bytesBuffer, binary.BigEndian, []byte("\r\n"))
 	return nil
 }
 
@@ -125,6 +125,9 @@ func Decode(bytesBuffer io.Reader) (bodyBuf []byte, err error) {
 	if _, err = io.ReadFull(bytesBuffer, bodyBuf); err != nil {
 		return nil, err
 	}
+	// 读出最后的6个字节
+	io.ReadFull(bytesBuffer, make([]byte, 6))
+	// bytesBuffer.Read()
 	return bodyBuf, err
 }
 
@@ -138,10 +141,6 @@ func TestMain(t *testing.T) {
 	a.OnSeesionData = func(conn net.Conn, data []byte) bool {
 		str := string(data)
 		fmt.Println(str)
-		n, err := strconv.Atoi(strings.Split(str, ":")[0])
-		if err != nil || recCounter != n {
-			panic("failed")
-		}
 		recCounter++
 
 		if recCounter >= TESTCOUNT {

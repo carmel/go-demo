@@ -12,6 +12,7 @@ import (
 	"net/url"
 	"regexp"
 	"strings"
+	"testing"
 )
 
 type WebWeChat struct {
@@ -192,7 +193,7 @@ func (w *WebWeChat) GetFakeId() bool {
 	return true
 }
 
-func main() {
+func TestWechat(t *testing.T) {
 	wechat := NewWebWeChat()
 
 	if wechat.login() == true {

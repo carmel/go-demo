@@ -3,6 +3,7 @@ package main
 import (
 	"fmt"
 	"sync"
+	"testing"
 	"time"
 )
 
@@ -53,7 +54,7 @@ func (p *Pool) Start() {
 	}()
 }
 
-func main() {
+func TestFunc(t *testing.T) {
 	f := func(id int) Task {
 		return func() error {
 			fmt.Println(id)

@@ -9,6 +9,7 @@ import (
 	"net"
 	"os"
 	"strings"
+	"testing"
 )
 
 func BytesJoin(pBytes ...[]byte) []byte {
@@ -20,7 +21,7 @@ func BytesJoin(pBytes ...[]byte) []byte {
 	return bytes.Join(s, []byte(""))
 }
 
-func main() {
+func TestTcp(ts *testing.T) {
 	server, err := net.ResolveTCPAddr("tcp", "challenge.yuansuan.cn:7042")
 	if err != nil {
 		fmt.Println(err)

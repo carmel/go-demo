@@ -1,11 +1,12 @@
 package test
 
 import (
-	"github.com/PuerkitoBio/goquery"
 	"log"
+
+	"github.com/PuerkitoBio/goquery"
 )
 
-func main() {
+func Goquery() {
 	doc, _ := goquery.NewDocument("http://live.titan007.com/")
 	log.Println(doc.Find("#team1_1527132").Text())
 }

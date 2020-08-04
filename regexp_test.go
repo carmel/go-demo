@@ -3,6 +3,7 @@ package test
 import (
 	"fmt"
 	"regexp"
+	"testing"
 )
 
 func expandTest() {
@@ -32,7 +33,7 @@ func expandTest() {
 	// abc+def+ghi   abc+def+ghi   abc+def+   abc+
 }
 
-func testFind() {
+func testFind(t *testing.T) {
 	re := regexp.MustCompile("a*r")
 	fmt.Println(string(re.Find([]byte("paranoabrmal"))))
 	fmt.Println(re.NumSubexp())
@@ -58,7 +59,7 @@ func testFind() {
 	fmt.Println(reg1.NumSubexp())
 }
 
-func testFindAll() {
+func testFindAll(t *testing.T) {
 	re := regexp.MustCompile("ar")
 	fmt.Printf("%q\n", (re.FindAll([]byte("paranoarmal"), -1)))
 
@@ -136,7 +137,7 @@ func testReg(pat, srcStr string) {
 
 }
 
-func main() {
+func TestRegexp(t *testing.T) {
 
 	testReg(`(((abc.)def.)ghi)x*`, `abc-def-ghixxa abc+def+ghixx`)
 	testReg(`(((abc.)def.)ghi)`, `abc-def-ghixxa abc+def+ghixx`)

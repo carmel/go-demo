@@ -4,6 +4,7 @@ import (
 	"encoding/json"
 	"fmt"
 	"os"
+	"testing"
 )
 
 type configuration struct {
@@ -11,7 +12,7 @@ type configuration struct {
 	Path    string
 }
 
-func main() {
+func TestJson(t *testing.T) {
 	file, _ := os.Open("E:/go_project/go-learn-demo/config.json")
 	defer file.Close()
 

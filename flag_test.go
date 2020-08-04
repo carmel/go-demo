@@ -3,9 +3,10 @@ package test
 import (
 	"flag"
 	"fmt"
+	"testing"
 )
 
-func main() {
+func TestFlag(t *testing.T) {
 	ok := flag.Bool("ok", false, "is ok")
 	id := flag.Int("id", 0, "id")
 	port := flag.String("port", ":8080", "http listen port")

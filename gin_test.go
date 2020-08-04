@@ -2,11 +2,13 @@ package test
 
 import (
 	"fmt"
-	"github.com/gin-gonic/gin"
 	"net/http"
+	"testing"
+
+	"github.com/gin-gonic/gin"
 )
 
-func main() {
+func TestGin(t *testing.T) {
 
 	gin.SetMode(gin.DebugMode) //全局设置环境，此为开发环境，线上环境为gin.ReleaseMode
 	router := gin.Default()    //获得路由实例

@@ -1,11 +1,13 @@
-package pool_test
+package test
 
 import (
-	"github.com/mikespook/gorbac"
 	"fmt"
+	"testing"
+
+	"github.com/mikespook/gorbac"
 )
 
-func main()  {
+func TestAuth(t *testing.T) {
 	//Get a new instance of RBAC
 	rbac := gorbac.New()
 	//Get some new roles

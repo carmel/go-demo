@@ -2,9 +2,10 @@ package test
 
 import (
 	"fmt"
+	"testing"
 )
 
-func main() {
+func TestFunc(t *testing.T) {
 	fmt.Println(numJewelsInStones("aA", "aAAbbbb"))
 }
 func numJewelsInStones(J string, S string) int {

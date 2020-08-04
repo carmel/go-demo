@@ -6,6 +6,7 @@ import (
 	"net/http"
 	"net/url"
 	"os"
+	"testing"
 
 	"golang.org/x/net/proxy"
 )
@@ -31,7 +32,7 @@ func ProxyAwareHttpClient() *http.Client {
 	return httpClient
 }
 
-func main() {
+func TestProxy(t *testing.T) {
 	req, err := http.NewRequest("GET", "http://google.com", nil)
 	if err != nil {
 		panic(err)

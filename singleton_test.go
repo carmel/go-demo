@@ -6,10 +6,11 @@ import (
 
 type Singleton struct{}
 
-var instance *Singelton
+var instance *Singleton
 
 func GetInstance() *Singleton {
-	sync.Once.Do(func() {
+	var once sync.Once
+	once.Do(func() {
 		instance = &Singleton{}
 	})
 	return instance

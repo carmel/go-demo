@@ -4,6 +4,7 @@ import (
 	"fmt"
 	"os"
 	"strings"
+	"testing"
 	"time"
 
 	"github.com/PuerkitoBio/goquery"
@@ -12,7 +13,7 @@ import (
 	"github.com/headzoo/surf/agent"
 )
 
-func main() {
+func TestHeadlessbrowser(t *testing.T) {
 	// Create a new browser and open reddit.
 	bow := surf.NewBrowser()
 	bow.AddRequestHeader("Accept", "text/html")

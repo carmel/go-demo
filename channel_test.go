@@ -12,12 +12,13 @@ package test
 import (
 	"fmt"
 	"os"
+	"testing"
 	"time"
 )
 
 //!+
 
-func main() {
+func TestChannel(t *testing.T) {
 	// ...create abort channel...
 
 	//!-

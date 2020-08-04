@@ -1,7 +1,11 @@
 package test
 
-import "fmt"
-import "golang.org/x/crypto/bcrypt"
+import (
+	"fmt"
+	"testing"
+
+	"golang.org/x/crypto/bcrypt"
+)
 
 func HashPassword(password string) (string, error) {
 	bytes, err := bcrypt.GenerateFromPassword([]byte(password), bcrypt.DefaultCost)
@@ -13,7 +17,7 @@ func CheckPasswordHash(password, hash string) bool {
 	return err == nil
 }
 
-func main() {
+func TestBcrypt(t *testing.T) {
 	myPwd := "shubham"
 	providedHash, _ := HashPassword(myPwd)
 	fmt.Println("Password :", myPwd)

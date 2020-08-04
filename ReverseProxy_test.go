@@ -7,6 +7,7 @@ import (
 	"net/http/httputil"
 	"net/url"
 	"strconv"
+	"testing"
 )
 
 type transport struct {
@@ -36,7 +37,7 @@ func (t *transport) RoundTrip(req *http.Request) (resp *http.Response, err error
 
 var _ http.RoundTripper = &transport{}
 
-func main() {
+func TestReverseProxy(t *testing.T) {
 	target, err := url.Parse("https://www.google.com/")
 	if err != nil {
 		panic(err)

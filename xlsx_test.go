@@ -3,11 +3,12 @@ package test
 import (
 	"fmt"
 	"os"
+	"testing"
 
 	"github.com/360EntSecGroup-Skylar/excelize"
 )
 
-func main() {
+func TestXlsx(t *testing.T) {
 	f, err := os.OpenFile("D:/tmp/excel/1.xlsx", os.O_RDWR|os.O_CREATE|os.O_APPEND, 0644)
 	if err != nil {
 		fmt.Println(err)

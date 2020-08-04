@@ -4,6 +4,7 @@ import (
 	"database/sql"
 	"fmt"
 	"log"
+	"testing"
 
 	"github.com/jmoiron/sqlx"
 	_ "github.com/lib/pq"
@@ -34,7 +35,7 @@ type Place struct {
 	TelCode int
 }
 
-func main() {
+func TestFunc(t *testing.T) {
 	// this Pings the database trying to connect, panics on error
 	// use sqlx.Open() for sql.Open() semantics
 	//postgres://user:pass@localhost/bookstore

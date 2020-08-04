@@ -3,10 +3,12 @@ package test
 import (
 	"database/sql"
 	"fmt"
+	"testing"
+
 	_ "github.com/go-sql-driver/mysql"
 )
 
-func main() {
+func TestMysql(t *testing.T) {
 	db, err := sql.Open("mysql", "root:1@/suncommune")
 	if err != nil {
 		panic(err.Error()) // Just for example purpose. You should use proper error handling instead of panic
@@ -40,5 +42,5 @@ func main() {
 	if err != nil {
 		panic(err.Error()) // proper error handling instead of panic in your app
 	}
-	fmt.Printf("The name of id 13 is: %d", name)
+	fmt.Printf("The name of id 13 is: %s", name)
 }
